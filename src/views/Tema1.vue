@@ -20,26 +20,26 @@
 
     p.mb-5 Conozca algunos aspectos característicos de las impresoras 3D.
 
-    h3.text-center Introducción a la impresora 3D
+    h3.mb-5.text-center Introducción a la impresora 3D
 
     ImagenInfografica.color-primario
       template(v-slot:imagen)
-        figure
+        figure.d-flex.justify-content-center
           img.img-punto(src='@/assets/curso/temas/tema1/img-2.png')
 
-      .tarjeta.color-acento-botones.p-3(x="20%" y="30%" numero="Funcionamiento")
+      .tarjeta.color-acento-botones.p-3(x="35.2%" y="28.7%" numero="Funcionamiento")
         .h5.mb-2 Funcionamiento
-        p Para imprimir en 3D se necesita el Software y el hardware de la impresora, además de los materiales que se requieren, y que funcionen bien sincronizados. El proceso para imprimir se fundamenta en que, al superponer capas de abajo hacia arriba, se logre obtener objetos con volumen.
+        p Para imprimir en 3D se necesita el <em>software</em> y el <em>hardware</em> de la impresora, además de los materiales que se requieren, y que funcionen bien sincronizados. El proceso para imprimir se fundamenta en que, al superponer capas de abajo hacia arriba, se logre obtener objetos con volumen.
 
-        p El Software divide el objeto antes de iniciar la impresión en capas que tienen de espesor el mismo diámetro de la boquilla de salida de material, entonces se va depositando el material en la forma diseñada, cada capa, y a medida que se va solidificando se va obteniendo la figura modelada digitalmente.
+        p El <em>software</em> divide el objeto antes de iniciar la impresión en capas que tienen de espesor el mismo diámetro de la boquilla de salida de material, entonces se va depositando el material en la forma diseñada, cada capa, y a medida que se va solidificando se va obteniendo la figura modelada digitalmente.
 
-      .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="Proceso")
+      .tarjeta.color-acento-botones.p-3(x="64.8%" y="28.7%" numero="Proceso")
         .h5.mb-2 Proceso
         p El proceso de impresión 3D comienza con el archivo del modelo desarrollado en CAD, luego el alistamiento del material que generalmente son polímeros termoplásticos; existe impresoras que trabajan con otros materiales y su costo varía según la capacidad para fundirlos, y finalmente hay que tener lista la impresora. Más adelante se conocerán sus tecnologías y tipos.
 
-      .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="Concepto")
+      .tarjeta.color-acento-botones.p-3(x="50%" y="98%" numero="Concepto")
         .h5.mb-2 Concepto
-        p La impresora 3D produce un modelo físico tangible a partir de uno creado en el computador, por ejemplo, si se ha modelado en algún Software diseño asistido por computador CAD, un exprimidor de naranjas, en la impresora 3D podrá imprimirlo en la realidad y obtener un producto físico que sería el propio exprimidor de naranjas. 
+        p La impresora 3D produce un modelo físico tangible a partir de uno creado en el computador, por ejemplo, si se ha modelado en algún <em>software</em> diseño asistido por computador CAD, un exprimidor de naranjas, en la impresora 3D podrá imprimirlo en la realidad y obtener un producto físico que sería el propio exprimidor de naranjas. 
 
         p Con la impresora 3D se pueden crear objetos, partiendo de una idea en la mente, desde objetos simples a objetos complejos como partes de vehículos, aviones e incluso órganos y tejidos humanos.
 

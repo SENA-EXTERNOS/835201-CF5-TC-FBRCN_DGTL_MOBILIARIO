@@ -45,6 +45,9 @@
 .color-gris
   background-color: #EFEFEF !important
 
+
+
+
 // introduccion
 
 .fondo1
@@ -63,8 +66,94 @@
   width: 40%
 
 .img-infografica__item
-  width: 14.5%
+  width: 12.5%
 
+.curso-main-container > .container
+  overflow: visible
 
 //tema 2 
+
+.cuadro-derecha
+  background-color: $color-primario
+  &:before
+      background-color: transparent
+      background-image: url("../assets/curso/temas/tema2/img-1.png")
+      background-repeat: no-repeat
+      background-size: cover
+      left: 62%
+
+  .bloque-texto-a.texto 
+    left: -32% !important
+
+@media screen and ( max-width: 992px )
+  .cuadro-derecha .bloque-texto-a.texto 
+    left: 8% !important
+    top: 30px
+  .cuadro-derecha
+  &:before
+    width: 100%
+    height: 50%
+    left: 0% !important
+
+  .cuadro-derecha-3 .bloque-texto-a.texto-3
+    left: 6% !important
+    top: 38px
+
+// tema 3
+
+.cajon.color-acento-botones
+  background-color: #E8F9EB
+
+.bloque-texto-g__img.tema-3
+    width: 45%
+
+// .. modal
+
+.img-infografica-b__item
+  width: 4.5% !important
+
+.img-infografica-b__modal
+  background-color: transparent !important
+
+.colormodal
+  background-color:  #F3EEEB !important
+  
+
+.img-infografica-b__modal__btn-cerrar
+  right: 2rem
+  top: 2rem
+  cursor: pointer
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0.5rem
+  transition: .25s
+  &:hover
+    transform: scale(1.2)
+    i
+      color: $color-sistema-texto !important
+
+.img-infografica-b__modal__contenido div > * 
+    color:#243046!important
+
+.img-infografica-b.color-acento-botones .img-infografica-b__item__dot
+  &:before
+    background-color: #ffffff
+.img-infografica-b.color-acento-botones .img-infografica-b__item__dot
+  &:after
+    background-color: #ffffff
+
+.cuadro-derecha-3
+  background-color: $color-acento-botones
+  &:before
+    background-color: transparent
+    background-image: url("../assets/curso/temas/tema3/img-7.png")
+    background-repeat: no-repeat
+    background-size: cover
+    left: 66%
+
+.bloque-texto-a.texto-3
+  left: -30% !important
+
+
+
 
