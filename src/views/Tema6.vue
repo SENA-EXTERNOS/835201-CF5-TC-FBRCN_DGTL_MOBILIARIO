@@ -42,7 +42,7 @@
 
       .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
-          img(src="@/assets/curso/temas/tema6/img-3.png").m-auto
+          img.img-200(src="@/assets/curso/temas/tema6/img-3.png").m-auto
 
     .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-6
       .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
@@ -66,9 +66,9 @@
             p Este procedimiento de limpieza del cabezal se debe hacer siempre que se utilice la impresora 3D, la extracción del filamento se hace al terminar cada impresión y sin dejar enfriar el cabezal durante 40 minutos aproximadamente.
       .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
-          img(src="@/assets/curso/temas/tema6/img-5.png").m-auto
+          img.img-200(src="@/assets/curso/temas/tema6/img-5.png").m-auto
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema6/img-6.png')})`}"
       )
@@ -79,6 +79,48 @@
         p La cama de impresión es un elemento de la impresora 3D que requiere una atención constante ya que sobre esta se depositará, sin importar la tecnología que tengamos, el material fundido, y el resultado depende de que esté totalmente plana y permita una óptima solidificación.
 
     p.mb-5 Reconozca a continuación cómo y cuándo se debe realizar.
+
+    .row.mb-5
+      .col-lg-8.order-2.order-lg-1
+        TabsA.color-secundario.mb-5        
+          .tarjeta-3.p-4(titulo="¿Cómo?")
+            h4 ¿Cómo se debe limpiar la cama de impresión?
+            p La cama de impresión se puede limpiar de muchas formas, las más recomendables pueden son: 
+            p Eliminar los residuos de filamento adheridos a la cama, utilizando una espátula metálica, también se puede previamente sumergir la base en agua caliente con el fin de que se ablanden y sea más fácil despegarlos.
+            p Se pueden también despegar los residuos de filamentos adheridos, utilizando una cinta de doble cara aprovechando que con esta se remueven las partículas más pequeñas.
+
+          .tarjeta-3.p-4(titulo="¿Cuándo?")
+            h4 ¿Cuándo limpiar la cama de impresión?
+            p La cama de impresión se debe limpiar cada vez que se detecte algún elemento ajeno adherido a esta, es decir es necesario estar revisando en todo momento que esté limpia y libre de cualquier impureza.
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img.img-200(src="@/assets/curso/temas/tema6/img-7.png").m-auto
+
+    .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-7
+      .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
+        .col-lg-4.mb-4.mb-lg-0.col-md-10
+        .col-lg-8.col-md-10
+          .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
+            h4 Limpieza de Baleros y Barras
+            p La limpieza y lubricación de los baleros y barras, es una de las actividades del mantenimiento preventivo de la impresora 3D que no puede faltar, para un óptimo funcionamiento y para evitar el deterioro de estas partes.
+
+    p.mb-5 Revise a continuación cómo y cuándo se debe realizar.
+
+    .row.mb-5
+      .col-lg-8.order-2.order-lg-1
+        TabsA.color-secundario.mb-5        
+          .tarjeta-3.p-4(titulo="¿Cómo?")
+            h4 ¿Cómo limpiar y lubricar los baleros y las barras?
+            p Primero que todo se deben limpiar, puede ser con un paño, las barras y baleros para eliminar cualquier impureza presente, luego se aplica, con una brocha o un pincel, el lubricante, que puede ser grasa o silicona, se puede acudir al manual del fabricante, y finalmente se elimina el exceso de lubricante, puede ser con una servilleta o un paño de cocina.
+
+          .tarjeta-3.p-4(titulo="¿Cuándo?")
+            h4 ¿Cuándo se deben limpiar y lubricar las barras y baleros?
+            p La limpieza y lubricación de los baleros y barras de una impresora 3D depende de la frecuencia de uso, así si hacemos impresiones continuamente se debe hacer aproximadamente cada dos meses, al contrario, si el uso de la impresora es esporádico, esta actividad se puede programar hasta con una frecuencia de un año.
+            p También es muy importante tener en cuenta el entorno donde tengamos ubicada la impresora 3D, es decir si se encuentra en un ambiente donde está expuesta al polvo y a condiciones desfavorables, el tiempo para este mantenimiento debe ser menor.
+
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img.img-200(src="@/assets/curso/temas/tema6/img-9.png").m-auto
 
 
 </template>

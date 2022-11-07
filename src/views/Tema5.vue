@@ -52,13 +52,13 @@
 
     .row.mb-5 
       .col-2
-        figure
+        figure(data-aos="fade-down")
           img(src="@/assets/curso/temas/tema5/img-4.png")
       .col-10
         p La impresión en 3D se puede realizar con diferentes materiales y métodos, estos deben corresponder de acuerdo con su tecnología; los materiales más comunes para imprimir en 3D deben tener las características que exijan tanto las condiciones técnicas de la impresora como las del producto esperado.
         p Entre los materiales más utilizados para la impresión 3D destacan:
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta.color-acento-botones.p-3
         .row.justify-content-center.mb-4
           .col-8

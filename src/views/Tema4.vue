@@ -11,7 +11,7 @@
 
     p.mb-5 Revise estos aspectos generales de la configuración de la impresora 3D.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down")
       .col-lg-9.position-relative.ancho
         .avatar
           figure
@@ -84,37 +84,21 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             .cajon.color-acento-botones.p-4.mb-3
-              p “Los formatos de salida de los programas de dibujo en 3D son muy variados; cada firma tiene su propio estándar, pero a la hora de imprimir todos deben convertirse a un formato universal, el archivo del tipo *.STL”. 
+              p “Los formatos de salida de los programas de dibujo en 3D son muy variados; cada firma tiene su propio estándar, pero a la hora de imprimir todos deben convertirse a un formato universal, el archivo del tipo *.<b>STL</b>”. 
 
-        p Tanto si modela los objetos con algún Software de diseño asistido por computador CAD, o si descarga los archivos de alguna galería, para pasar estos archivos del computador a la impresora para imprimirlos en 3D, no es tan fácil como parece, cada marca del programa en el que fue creado el modelo tiene su propia extensión o formato al guardar el archivo, para poder imprimirlo es necesario que los archivos tengan la extensión *.STL pero para que esto se dé, el archivo *.STL no se puede pasar directamente a la impresora sin que haya sido convertido al leguaje Gcode que mencionamos anteriormente.
+        p Tanto si modela los objetos con algún <em>software</em> de diseño asistido por computador CAD, o si descarga los archivos de alguna galería, para pasar estos archivos del computador a la impresora para imprimirlos en 3D, no es tan fácil como parece, cada marca del programa en el que fue creado el modelo tiene su propia extensión o formato al guardar el archivo, para poder imprimirlo es necesario que los archivos tengan la extensión *.STL pero para que esto se dé, el archivo *.STL no se puede pasar directamente a la impresora sin que haya sido convertido al leguaje Gcode que mencionamos anteriormente.
 
       .col-5.col-md-5
-        figure
+        figure(data-aos="fade-down")
           img(src="@/assets/curso/temas/tema4/img-7.png")
 
-    p Pasos para la transferencia de archivos usando <em>Chitubox</em>:
-
-    .row.justify-content-center.mb-5
-      .col-8.col-lg-4
-        figure
-          img.l.my-3(src="@/assets/curso/temas/tema4/img-8.png" )
-      .col-lg-8
-        LineaTiempoD.color-primario
-          p(numero="1" titulo="Impresión por inyección") En esta tecnología, la impresora genera los modelos extendiendo en cada capa una parte de la pieza. Repitiendo el proceso hasta que se imprimen todas las capas que conforman el producto, en este método se permite la aplicación de colores en los productos, este método se puede comparar con la impresión en papel de chorro de tinta, a cambio de la tinta se dosifica el fotopolímero liquido por capas sobre la bandeja y la solidificación se logra mediante una luz ultravioleta.
-
-          p(numero="2" titulo="Impresión por deposición fundida (FDM)") En esta tecnología, la impresora va disponiendo el material fundido por capas que forman el producto sobre un soporte, estas luego para solidificarse son sintetizadas por un rayo láser. Semejante a este es el DMLS o sintetizado de metales por láser.
-
-          p(numero="3" titulo="Impresión por Estereolitografía (SLA)") Esta tecnología tiene como material de impresión las resinas liquidas fotopolimericas, las capas que forman el objeto se endurecen o solidifican mediante una luz generada por un rayo láser ultravioleta. Este método permite generar objetos funcionales o prototipos formales o modelos. 
-
-          p(numero="4" titulo="Impresión por Fotopolimerización por luz ultravioleta (SGC)") En este método el material de polímero líquido que está en un contenedor es sometido a una luz proyectada con unas condiciones específicas, logrando así la solidificación del material a medida que se va sumergiendo la bandeja de soporte capa por capa hasta terminar con la forma definitiva del producto.
-
-          p(numero="5" titulo="Impresión por Fotopolimerización por absorción de fotones (SLS)") En este método de impresión 3D se utiliza el material polimérico en forma de un bloque de gel al cual se le va proyectando un haz de luz láser, las zonas donde se va recibiendo el láser, van siendo solidificadas gracias al proceso de no linealidad óptica de la fotoexcitación, las zonas restantes donde no se solidificó el gel son residuos que se retiran mediante un proceso posterior de limpieza. 
+    p.mb-5 Pasos para la transferencia de archivos usando <em>Chitubox</em>:
 
     .bg--img_03
       .row.justify-content-center.mb-4
         .col-lg-4
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema4/img-7.png", alt="alt").img400.m-auto
+            img(src="@/assets/curso/temas/tema4/img-8.png", alt="alt").img400.m-auto
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Paso 1")
@@ -135,7 +119,7 @@
 
             .row(titulo="Paso 5")
               .col-12
-                p.mb-0 Cuando ya el archivo pueda ser reconocido o leído por la impresora 3D, entonces al igual que con una impresora convencional, se pulsará la opción print, seleccionando el archivo en la carpeta correspondiente. 
+                p.mb-0 Cuando ya el archivo pueda ser reconocido o leído por la impresora 3D, entonces al igual que con una impresora convencional, se pulsará la opción <em>print</em>, seleccionando el archivo en la carpeta correspondiente. 
 </template>
 
 <script>

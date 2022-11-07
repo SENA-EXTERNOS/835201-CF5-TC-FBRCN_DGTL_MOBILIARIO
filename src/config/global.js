@@ -46,7 +46,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em>Software</em> para impresión 3D',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -64,7 +64,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Otros Softwares',
+            titulo: 'Otros <em>softwares</em>',
             hash: 't_3_3',
           },
         ],
@@ -73,7 +73,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Configuración de impresoras 3D',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -94,7 +94,7 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Operación de impresoras 3D',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -121,7 +121,7 @@ export default {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Mantenimiento de impresoras 3D',
         desarrolloContenidos: true,
       },
     ],

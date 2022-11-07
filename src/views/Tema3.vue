@@ -90,30 +90,34 @@
     #t_3_2.titulo-segundo.color-acento-contenido.pb-2
       h3 3.2 <em>Slicers 3D</em> y programas reparadores de archivos STL
 
-
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img.tema-3(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-6.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p <b><em>Slicers 3D</em> o <em>software</em> de laminado</b>
-        br
-        br
-        p Los slicers 3D convierten el modelo 3D creado en CAD, en rebanadas o capas cuyo espesor es el mismo diámetro del cabezal de la impresora 3D en la que se quiere imprimir.
-
-    .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-3
-      .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
-        .col-lg-4.mb-4.mb-lg-0.col-md-10
-        .col-lg-8.col-md-10
-          .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
-            p El <em>Slicer 3D</em> crea en un programa de lenguaje Gcode, todas las instrucciones para que sean seguidas por la impresora. Este <em>software</em> es fundamental en el proceso de impresión 3D ya que, aspectos tales como la resolución, el espesor de cada capa y la velocidad de impresión son definidos por este laminador. 
-
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-8.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Existen dos tipos de <em>software Slicers</em> para la impresión en 3D, uno los universales de código abierto como: Cura, Repeteir o Slic3r; y los que requieren pago como Simplify3D, ReplicatorG, Zsuite y 3l Voxelizer
+    .row 
+      .col-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img.tema-3(
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-6.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p <b><em>Slicers 3D</em> o <em>software</em> de laminado</b>
+            br
+            br
+            p Los slicers 3D convierten el modelo 3D creado en CAD, en rebanadas o capas cuyo espesor es el mismo diámetro del cabezal de la impresora 3D en la que se quiere imprimir.
+    .row.justify-content-end.align-items-center.mb-5
+      .col-lg-8 
+      .col-10
+        .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-3
+          .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
+            .col-lg-4.mb-4.mb-lg-0.col-md-10
+            .col-lg-8.col-md-10
+              .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
+                p El <em>Slicer 3D</em> crea en un programa de lenguaje Gcode, todas las instrucciones para que sean seguidas por la impresora. Este <em>software</em> es fundamental en el proceso de impresión 3D ya que, aspectos tales como la resolución, el espesor de cada capa y la velocidad de impresión son definidos por este laminador. 
+    .row 
+      .col-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-8.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Existen dos tipos de <em>software Slicers</em> para la impresión en 3D, uno los universales de código abierto como: Cura, Repeteir o Slic3r; y los que requieren pago como Simplify3D, ReplicatorG, Zsuite y 3l Voxelizer
     
     separador
 
