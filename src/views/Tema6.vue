@@ -4,8 +4,82 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
-      h1 Titulo de primer nivel
+        span 6
+      h1 Mantenimiento de impresoras 3D
+
+    .tarjeta.fondo1.color-gris.mb-5(data-aos="fade-down")
+      .row.justify-content-end.align-items-center
+        .col-md-5.order-md-first.order-sm-last.pt-4
+
+          p.p-4 Las impresoras 3D son herramientas que, con un mantenimiento preventivo adecuado, pueden durar largos periodos funcionando sin problemas. A continuación, se encuentran algunos de los ajustes necesarios para que la impresora este en perfectas condiciones.
+
+        .col-md-6.mb-0.mb-md-0.order-md-last.order-sm-first
+          figure.p-3
+            img(src="@/assets/curso/temas/tema6/img-1.png")
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema6/img-2.png')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        h4 Limpieza de la boquilla
+        br
+        br
+        p La boquilla y el cabezal son las partes de la impresora 3D que requieren ser limpiadas al finalizar cada impresión si queremos que la impresora se mantenga en condiciones ideales de funcionamiento, esto debido a que hay una posibilidad de que el filamento del material quede pegado a alguna de estas partes.
+
+    p.mb-5 Revise a continuación cómo y cuándo se debe realizar.
+
+    .row
+      .col-lg-8.order-2.order-lg-1
+        TabsA.color-secundario.mb-5        
+          .tarjeta-3.p-4(titulo="¿Cómo?")
+            h4 ¿Cómo limpiar la boquilla?
+            p Se deben eliminar los residuos que quedan pegados a la boquilla de la salida del material, se puede utilizar un cepillo metálico, una espátula o unas pinzas de puntas finas.
+
+          .tarjeta-3.p-4(titulo="¿Cuándo?")
+            h4 ¿Cuándo debemos limpiar la boquilla?
+            p La boquilla se debe limpiar siempre que se utilice la impresora 3D, al finalizar cada impresión se debe dejar secar o enfriar la punta de la boquilla y retirar con cualquiera de las herramientas señaladas anteriormente.
+
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img(src="@/assets/curso/temas/tema6/img-3.png").m-auto
+
+    .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-6
+      .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
+        .col-lg-4.mb-4.mb-lg-0.col-md-10
+        .col-lg-8.col-md-10
+          .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
+            h4 Limpieza del cabezal
+            p La limpieza del cabezal es una de las actividades de mantenimiento más importantes con las impresoras 3D, al igual que la boquilla, necesita ser limpiada frecuentemente cada vez que se imprime y así evitar que se solidifique o cristalice el filamento y que resulte averiado el cabezal que es una de las partes mas costosas de la impresora 3D.
+
+    p.mb-5 Revise a continuación cómo y cuándo se debe realizar.
+
+    .row.mb-5
+      .col-lg-8.order-2.order-lg-1
+        TabsA.color-secundario.mb-5        
+          .tarjeta-3.p-4(titulo="¿Cómo?")
+            h4 ¿Cómo se debe limpiar el cabezal?
+            p Para tener un mejor resultado, al terminar cada impresión se debe extraer la totalidad del filamento que está dentro del cabezal extrusor, generalmente se puede usar una llave allen M2 teniendo mucho cuidado de que llegue a quedar prensada y se genere un daño mayor.
+
+          .tarjeta-3.p-4(titulo="¿Cuándo?")
+            h4 ¿Cuándo se debe limpiar el cabezal? 
+            p Este procedimiento de limpieza del cabezal se debe hacer siempre que se utilice la impresora 3D, la extracción del filamento se hace al terminar cada impresión y sin dejar enfriar el cabezal durante 40 minutos aproximadamente.
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img(src="@/assets/curso/temas/tema6/img-5.png").m-auto
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema6/img-6.png')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        h4.mb-0 Mantenimiento de la cama de impresión 
+        br
+        br
+        p La cama de impresión es un elemento de la impresora 3D que requiere una atención constante ya que sobre esta se depositará, sin importar la tecnología que tengamos, el material fundido, y el resultado depende de que esté totalmente plana y permita una óptima solidificación.
+
+    p.mb-5 Reconozca a continuación cómo y cuándo se debe realizar.
+
 
 </template>
 

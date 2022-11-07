@@ -39,9 +39,9 @@
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema3/img-puntos.png')
-
-      .tarjeta.colormodal(x="3.5%" y="22%" numero="1")
+          img.mb-4(src='@/assets/curso/temas/tema3/img-puntos.png')
+          figcaption Nota: adaptado de Contreras (2022). Los mejores <em>softwares</em> CAD para todos los niveles, 3D Natives. 
+      .tarjeta.colormodal(x="3.5%" y="20.2%" numero="1")
         .row.justify-content-center.mb-5.p-5
           .col-7
             p <b> <em>Software</em> de modelado sólido</b>
@@ -52,7 +52,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img-2.png')
 
-      .tarjeta.colormodal(x="96.5%" y="22%" numero="2")
+      .tarjeta.colormodal(x="96.5%" y="20.2%" numero="2")
         .row.justify-content-center.mb-5.p-5
           .col-7
             p <b> <em>Software</em> de modelado de superficies</b>
@@ -63,7 +63,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img-3.png')
 
-      .tarjeta.colormodal(x="3.5%" y="76.5%" numero="3")
+      .tarjeta.colormodal(x="3.5%" y="69.8%" numero="3")
         .row.justify-content-center.mb-5.p-5
           .col-7
             p <b> <em>Software</em> de modelado orgánico</b>
@@ -74,7 +74,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img-4.png')
 
-      .tarjeta.colormodal(x="96.5%" y="76.5%" numero="4")
+      .tarjeta.colormodal(x="96.5%" y="69.8%" numero="4")
         .row.justify-content-center.mb-5.p-5
           .col-7
             p <b> <em>Software</em> de modelado optimización</b>
@@ -128,7 +128,7 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img-9.png')
-        h2.text-center <em>softwares</em> para proteger los diseños
+        h2.text-center <em>Softwares</em> para proteger los diseños
         p.text-center En el mercado hoy en día se puede encontrar diferentes soluciones o complementos cuyo objetivo principal es la protección de los archivos de los modelos y los datos cuando estos son muy importantes o están expuestos, estos son protegidos de tal forma que pueden ser usados, enviados o compartidos de manera segura.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4

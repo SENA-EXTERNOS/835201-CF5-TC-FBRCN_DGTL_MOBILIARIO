@@ -75,6 +75,20 @@ export default {
         numero: '4',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Alistamiento de impresoras 3D',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Transferencia de archivos a impresoras 3D',
+            hash: 't_4_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
@@ -82,6 +96,26 @@ export default {
         numero: '5',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Materiales e insumos para impresión 3D',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Generación de prototipos 3D',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: ' Acabados superficiales a prototipos 3D',
+            hash: 't_5_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
