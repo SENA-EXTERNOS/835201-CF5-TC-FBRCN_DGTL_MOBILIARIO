@@ -58,7 +58,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Programas de modelización 3D',
+            titulo: `<em>Slicers</em> 3D y programas reparadores de archivos STL`,
             hash: 't_3_2',
           },
           {

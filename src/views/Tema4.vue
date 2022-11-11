@@ -22,7 +22,7 @@
               figure
                 img(src="@/assets/curso/temas/tema4/img-2.png", alt="alt").img100
             .col
-              h5 De acuerdo con su impresora, revisar el manual de usuario
+              h5 De acuerdo con su impresora, revisar el manual <span>de usuario</span>
               p.me-5 Ciertamente, el primer paso antes de poner a funcionar cualquier dispositivo es revisar el manual del usuario del modelo adquirido. 
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
@@ -38,7 +38,7 @@
               figure
                 img(src="@/assets/curso/temas/tema4/img-4.png", alt="alt").img100
             .col
-              h5 Verifique si hay errores de fabricación
+              h5 Verifique si hay errores de <span>fabricación</span>
               p.me-5 Se puede presentar que la impresora o sus componentes desde la fábrica traigan algún defecto, o que en el embalaje no estén la totalidad de sus componentes, o en el transporte se hayan afectado en su estructura o funcionamiento. Para esto es mejor antes de iniciar el proceso de impresión, verificar que todo esté en orden, de no ser así hacerlo saber al fabricante o comercializador.
 
     separador 
@@ -62,12 +62,12 @@
             p Para esta acción debe seguir el procedimiento que seguramente trae el manual y utilizando las herramientas que en el recomiendan.
 
           .tarjeta-3.p-4(titulo="Nivelar la cama")
-            pLuego de que el marco quedó nivelado, ahora se debe nivelar la cama, ya que esta soportará los dos componentes, al igual que en el paso anterior, se debe seguir las indicaciones del fabricante en el manual, si después de hacerlo la cama presenta desniveles, puede ser defecto de fabricación y no se puede corregir, entonces se debe reemplazar bien sea con un repuesto o con un objeto del que se tenga seguridad de su planitud, puede ser un vidrio o un espejo.
+            p Luego de que el marco quedó nivelado, ahora se debe nivelar la cama, ya que esta soportará los dos componentes, al igual que en el paso anterior, se debe seguir las indicaciones del fabricante en el manual, si después de hacerlo la cama presenta desniveles, puede ser defecto de fabricación y no se puede corregir, entonces se debe reemplazar bien sea con un repuesto o con un objeto del que se tenga seguridad de su planitud, puede ser un vidrio o un espejo.
 
           .tarjeta-3.p-4(titulo="Lubricar")
             p Una vez la impresora 3D esta lista, es necesario lubricar las piezas que por su función sean indispensables, es decir, las piezas articuladas o móviles, se puede utilizar como lubricante grasas o aceites de silicona, normalmente en las directrices de fábrica incluyen las recomendaciones de contenido y cantidades.
           .tarjeta-3.p-4(titulo="Primera capa")
-            p Al iniciar la impresión se recomienda que la impresora este configurada para que las dos o tres primeras capas se apliquen con una velocidad baja y para las posteriores se irá incrementando, esto con el fin de que las capas de base o soporte sean suficientemente fuertes para soportar el resto del objeto.
+            p Al iniciar la impresión se recomienda que la impresora esté configurada para que las dos o tres primeras capas se apliquen con una velocidad baja y para las posteriores se irá incrementando, esto con el fin de que las capas de base o soporte sean suficientemente fuertes para soportar el resto del objeto.
       .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/tema4/img-6.png").m-auto
@@ -83,10 +83,10 @@
 
         .row.justify-content-center.align-items-center
           .col-lg-12
-            .cajon.color-acento-botones.p-4.mb-3
+            .cajon.color-bloque.p-4.mb-3
               p “Los formatos de salida de los programas de dibujo en 3D son muy variados; cada firma tiene su propio estándar, pero a la hora de imprimir todos deben convertirse a un formato universal, el archivo del tipo *.<b>STL</b>”. 
 
-        p Tanto si modela los objetos con algún <em>software</em> de diseño asistido por computador CAD, o si descarga los archivos de alguna galería, para pasar estos archivos del computador a la impresora para imprimirlos en 3D, no es tan fácil como parece, cada marca del programa en el que fue creado el modelo tiene su propia extensión o formato al guardar el archivo, para poder imprimirlo es necesario que los archivos tengan la extensión *.STL pero para que esto se dé, el archivo *.STL no se puede pasar directamente a la impresora sin que haya sido convertido al leguaje Gcode que mencionamos anteriormente.
+        p Tanto si modela los objetos con algún <em>software</em> de diseño asistido por computador CAD, o si descarga los archivos de alguna galería, para pasar estos archivos del computador a la impresora para imprimirlos en 3D, no es tan fácil como parece, cada marca del programa en el que fue creado el modelo tiene su propia extensión o formato al guardar el archivo, para poder imprimirlo es necesario que los archivos tengan la extensión *.STL pero para que esto se dé, el archivo *.STL no se puede pasar directamente a la impresora sin que haya sido convertido al lenguaje Gcode que mencionamos anteriormente.
 
       .col-5.col-md-5
         figure(data-aos="fade-down")

@@ -10,14 +10,14 @@
     p.mb-5 La impresión 3D cada día se abre más campo en diferentes áreas, no solo industrialmente sino también en hogares, esto incrementa sus usos y aplicaciones, generalmente encontramos que se mencionan solo los beneficios, pero está también debe tener en cuenta algunas precauciones al comenzar a utilizarla.
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-acento-botones.p-5
+      .col-md.tarjeta.color-tar-1.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema5/img-1.png')
         h2.text-center Gases y olores desprendidos
         p.text-center El ácido polilactico o PLA, el acrilonitrilo butadieno estireno o ABS y el poliestireno de alto impacto o HIPS son los polímeros más utilizados en los procesos de impresión 3D, se recomienda evitar la impresión en lugares o entornos caseros con materiales que emitan gases u olores.
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-tar-2.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -59,62 +59,62 @@
         p Entre los materiales más utilizados para la impresión 3D destacan:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
-      .tarjeta.color-acento-botones.p-3
+      .tarjeta.color-tarjeta-5.p-3
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Ácido poliláctico PLA
         p.text-center Es un polímero que contiene los mismos elementos del ácido láctico y tiene atributos semejantes al tereftalato de polietileno PET, utilizado generalmente en la fabricación de contenedores obtenido en base a almidones de maíz, yuca o caña de azúcar.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-tarjeta-5.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Laywoo D3
         p.text-center Material obtenido al mezclar en diferentes proporciones, un polímero parecido al PLA con aserrín de madera resultando un material con apariencia semejante a la madera y que también permite que sea acabado mediante procesos como lijado y pintado.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-tarjeta-5.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Acrilonitrilo butadieno estireno ABS
         p.text-center Polímero de alta resistencia en sus propiedades mecánicas muy renuente a la temperatura, flexible y sencillo de pintar, se utiliza principalmente en sectores como el automotriz, el industrial y de productos domésticos.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-tarjeta-5.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Poliestireno de alto impacto HIPS
         p.text-center Polímero de la familia de los poliestirenos que a temperatura ambiente es muy frágil, para aumentar su resistencia se le adiciona polibutaieno, comúnmente se le conoce como HIPS o PSAI.
-      .tarjeta.color-acento-botones.p-2
+      .tarjeta.color-tarjeta-5.p-2
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Tereftalato de polietileno PET
         p.text-center Polímero obtenido por la policondensación entre el ácido tereftalático y el etilenglicol, es el polímero más utilizado en la producción de contenedores para bebidas, hace parte de los sintéticos clasificados como poliésteres.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-tarjeta-5.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Elastomero termoplastico TPE
         p.text-center Polímero proveniente de la mezcla de termoplásticos y elastómeros, esta combina las características de cada uno de estos elementos, también se les reconoce como TPE o cauchos termoplásticos.
-      .tarjeta.color-acento-botones.p-1
+      .tarjeta.color-tarjeta-5.p-1
         .row.justify-content-center.mb-2
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Filaflex
         p.text-center Material en forma de hebra o filamento de gran elasticidad, obtenido del poliuretano junto con algunos aditivos, se desempeña más lento durante la impresión 3D, se puede aprovechar las propiedades de elasticidad y flexibilidad en la producción de elementos como zapatos deportivos, prótesis, pulseras o partes de teléfonos móviles.
-      .tarjeta.color-acento-botones.p-1
+      .tarjeta.color-tarjeta-5.p-1
         .row.justify-content-center.mb-2
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Laybrick
         p.text-center Es un material que se obtiene de mezclar algunos polímeros con yeso, por tanto, las impresiones tendrán una apariencia semejante a una piedra o ladrillo, permite ser lijado y pintado, está conformado por arena y un aglutinante plástico que genera una superficie con apariencia de cerámica o piedra.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-tarjeta-5.p-4
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Nylon
         p.text-center Es un polímero creado en laboratorio clasificado dentro de las poliamidas, es un filamento con propiedades de resistencia y elasticidad utilizado generalmente en la producción de telas y tejidos.
         br
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-tarjeta-5.p-4
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
@@ -137,11 +137,11 @@
     #t_5_3.titulo-segundo.color-acento-contenido.pb-2
       h3 5.3 Acabados superficiales a prototipos 3D
 
-    p Luego de imprimir en 3D encontramos que los productos aun no son los esperados, entonces, es necesario darle un mejor acabado, este puede ser para mejorar la textura, color o simplemente para deshacerse de elementos como los soportes que no hacen parte del objeto.
+    p Luego de imprimir en 3D encontramos que los productos aún no son los esperados, entonces, es necesario darle un mejor acabado, este puede ser para mejorar la textura, color o simplemente para deshacerse de elementos como los soportes que no hacen parte del objeto.
 
     p.mb-5 Revise algunos procesos existentes para darle acabados a las superficies de las piezas y prototipos.
 
-    .tarjeta.tarjeta--azul.p-4
+    .tarjeta.color-slider.p-4
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
@@ -153,22 +153,22 @@
         .row
           .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
             .col-lg-8
-            h4.ms-5 Suavizado por Sand Blast
-            p.ms-5 Este acabado superficial utiliza diminutos fragmentos de plástico aplicados con presión sobre la superficie mediante la pistola de sand blast, generalmente alimentada por aire comprimido, este proceso permite dar un acabado de alta calidad sin afectar las dimensiones y sin distorsionar las piezas, también el sand blast se caracteriza por realizarse en tiempos más cortos frente a otros procesos de acabados superficiales y más eficiente ya que no utiliza instrumentos, lijas, ni solventes.
+            h4.ms-5 Suavizado por <em>Sand Blast</em>
+            p.ms-5 Este acabado superficial utiliza diminutos fragmentos de plástico aplicados con presión sobre la superficie mediante la pistola de <em>sand blast</em>, generalmente alimentada por aire comprimido, este proceso permite dar un acabado de alta calidad sin afectar las dimensiones y sin distorsionar las piezas, también el <em>sand blast</em> se caracteriza por realizarse en tiempos más cortos frente a otros procesos de acabados superficiales y más eficiente ya que no utiliza instrumentos, lijas, ni solventes.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema5/img-7.png')
         .row
           .col-md-6.mb-4.mb-md-0.row.row.justify-content-center.align-items-center
             h4.ms-5 Suavizado por Vibración
-            p.ms-5 En este proceso de acabado superficial se utiliza una maquina vibradora y el material abrasivo en un contenedor con la pieza a tratar, dependiendo el acabado que se quiera dar, se utiliza el material abrasivo, es decir, para brillar la pieza se usa un grano fino y para solamente el lijado se usa un grano más grueso o de mayor tamaño, algunas veces se adicionan líquidos que pueden servir de lubricantes o para evitar que se genere material particulado o polvo. 
+            p.ms-5 En este proceso de acabado superficial se utiliza una máquina vibradora y el material abrasivo en un contenedor con la pieza a tratar, dependiendo el acabado que se quiera dar, se utiliza el material abrasivo, es decir, para brillar la pieza se usa un grano fino y para solamente el lijado se usa un grano más grueso o de mayor tamaño, algunas veces se adicionan líquidos que pueden servir de lubricantes o para evitar que se genere material particulado o polvo. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema5/img-8.png')
         .row
           .col-md-6.mb-4.mb-md-0.row.row.justify-content-center.align-items-center
             h4.ms-5 Acabado por inmersión de acetona
-            p.ms-5 Este acabado superficial utiliza la acetona, que reacciona químicamente con el ABS, haciendo que en este la rugosidad sea menor hasta llegar al brillo, se logra sumergiendo la pieza en acetona liquida y dejándola por un tiempo determinado.
+            p.ms-5 Este acabado superficial utiliza la acetona, que reacciona químicamente con el ABS, haciendo que en este la rugosidad sea menor hasta llegar al brillo, se logra sumergiendo la pieza en acetona líquida y dejándola por un tiempo determinado.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema5/img-9.png')
@@ -183,7 +183,7 @@
         .row
           .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
             h4.ms-5 Pintura
-            p.ms-5 En las impresoras 3D se obtienen piezas destinadas para la investigación, para el prototipado o para producción, pero de acuerdo con la tecnología usada su coloración es muy limitada, entonces, para poder ser presentados en fotografías o en folletos o simplemente para cumplir con os requisitos estéticos planeados, los productos se pueden someter a proceso de pintura, previamente hayan sido lijados.
+            p.ms-5 En las impresoras 3D se obtienen piezas destinadas para la investigación, para el prototipado o para producción, pero de acuerdo con la tecnología usada su coloración es muy limitada, entonces, para poder ser presentados en fotografías o en folletos o simplemente para cumplir con los requisitos estéticos planeados, los productos se pueden someter a proceso de pintura, previamente hayan sido lijados.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema5/img-11.png')

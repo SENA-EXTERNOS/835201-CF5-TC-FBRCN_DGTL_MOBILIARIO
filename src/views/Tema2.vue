@@ -21,11 +21,11 @@
           img.l.my-3(src="@/assets/curso/temas/tema2/img-2.png", alt="alt")
       .col-lg-8
         LineaTiempoD.color-primario
-          p(numero="1" titulo="Impresión por inyección") En esta tecnología, la impresora genera los modelos extendiendo en cada capa una parte de la pieza. Repitiendo el proceso hasta que se imprimen todas las capas que conforman el producto, en este método se permite la aplicación de colores en los productos, este método se puede comparar con la impresión en papel de chorro de tinta, a cambio de la tinta se dosifica el fotopolímero liquido por capas sobre la bandeja y la solidificación se logra mediante una luz ultravioleta.
+          p(numero="1" titulo="Impresión por inyección") En esta tecnología, la impresora genera los modelos extendiendo en cada capa una parte de la pieza. Repitiendo el proceso hasta que se imprimen todas las capas que conforman el producto, en este método se permite la aplicación de colores en los productos, este método se puede comparar con la impresión en papel de chorro de tinta, a cambio de la tinta se dosifica el fotopolímero líquido por capas sobre la bandeja y la solidificación se logra mediante una luz ultravioleta.
 
           p(numero="2" titulo="Impresión por deposición fundida (FDM)") En esta tecnología, la impresora va disponiendo el material fundido por capas que forman el producto sobre un soporte, estas luego para solidificarse son sintetizadas por un rayo láser. Semejante a este es el DMLS o sintetizado de metales por láser.
 
-          p(numero="3" titulo="Impresión por Estereolitografía (SLA)") Esta tecnología tiene como material de impresión las resinas liquidas fotopolimericas, las capas que forman el objeto se endurecen o solidifican mediante una luz generada por un rayo láser ultravioleta. Este método permite generar objetos funcionales o prototipos formales o modelos. 
+          p(numero="3" titulo="Impresión por Estereolitografía (SLA)") Esta tecnología tiene como material de impresión las resinas líquidas fotopolimericas, las capas que forman el objeto se endurecen o solidifican mediante una luz generada por un rayo láser ultravioleta. Este método permite generar objetos funcionales o prototipos formales o modelos. 
 
           p(numero="4" titulo="Impresión por Fotopolimerización por luz ultravioleta (SGC)") En este método el material de polímero líquido que está en un contenedor es sometido a una luz proyectada con unas condiciones específicas, logrando así la solidificación del material a medida que se va sumergiendo la bandeja de soporte capa por capa hasta terminar con la forma definitiva del producto.
 

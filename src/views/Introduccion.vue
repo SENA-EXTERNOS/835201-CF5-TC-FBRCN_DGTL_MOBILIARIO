@@ -21,10 +21,10 @@
           p El siguiente video muestra una contextualización de la impresión 3D y de los temas que trataremos a lo largo de este ciclo formativo. 
 
           p Para tener una mayor información revisar el material complementario que se encuentra al final del componente.
-
+        
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
-          figure
-            img(src="@/assets/curso/temas/introduccion/img-1.svg")
+              figure.centrar
+                img.img-400(src="@/assets/curso/temas/introduccion/img-1.svg")
 
     figure
       .video

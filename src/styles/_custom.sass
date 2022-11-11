@@ -56,6 +56,13 @@
   background-position: top left
   background-color: $color-adicional-1
 
+.centrar
+  position: relative;
+  left: 20%
+.img-400
+  width: 400px
+  
+
 @media screen and ( max-width: 767px )
   .fondo1
     background-image: none !important
@@ -72,6 +79,10 @@
   overflow: visible
 
 //tema 2 
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected // quitar selected para color inicial
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color:#EEF1F7
 
 .cuadro-derecha
   background-color: $color-primario
@@ -113,6 +124,12 @@
 
 .bloque-texto-g__img.tema-3
     width: 45%
+
+.color-tar-1
+  background-color: #E7F8EB !important
+.color-tar-2
+  background-color: #A3D2F7 !important
+
 
 // .. modal
 
@@ -162,6 +179,14 @@
   left: -37% !important
 
 // tema 4
+
+.color-bloque
+  background-color: #CDF0E4 !important
+  &:before
+    background-color: #3BC192 !important
+
+.color-lateral
+  background-color: #48A5F0 !important
 
 .img250
   width: 293px  
@@ -225,6 +250,10 @@
 
 // tema 5
 
+.color-tarjeta-5
+  background-color: #DEF6E3 !important
+
+
 .texto-blanco-cinco span
   color: #12263F !important
   
@@ -235,11 +264,22 @@
   &:before 
     background-color: #CFBDB0;
 
+.slyder-a__bullets__item--active 
+    background-color: #48a5f0 !important
+    border-color: #48a5f0  !important
+    opacity: 1
+
+.slyder-a__bullets__item
+  background-color: #ABCEEB
+
+.color-slider
+  background-color: #E1E4E9 !important
+
 // tema 6
 
 .tarjeta-3
   border-radius: 20px
-  background-color:  #D8ECFF 
+  background-color:  #E8F3FC !important
 
 .cuadro-derecha-6
   background-color: $color-primario
@@ -261,6 +301,8 @@
 
 .img-200
   width: 250px
+
+
 
 
 

@@ -11,7 +11,7 @@
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last.pt-4
 
-          p.p-4 Las impresoras 3D son herramientas que, con un mantenimiento preventivo adecuado, pueden durar largos periodos funcionando sin problemas. A continuación, se encuentran algunos de los ajustes necesarios para que la impresora este en perfectas condiciones.
+          p.p-4 Las impresoras 3D son herramientas que, con un mantenimiento preventivo adecuado, pueden durar largos periodos funcionando sin problemas. A continuación, se encuentran algunos de los ajustes necesarios para que la impresora esté en perfectas condiciones.
 
         .col-md-6.mb-0.mb-md-0.order-md-last.order-sm-first
           figure.p-3
@@ -50,7 +50,7 @@
         .col-lg-8.col-md-10
           .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
             h4 Limpieza del cabezal
-            p La limpieza del cabezal es una de las actividades de mantenimiento más importantes con las impresoras 3D, al igual que la boquilla, necesita ser limpiada frecuentemente cada vez que se imprime y así evitar que se solidifique o cristalice el filamento y que resulte averiado el cabezal que es una de las partes mas costosas de la impresora 3D.
+            p La limpieza del cabezal es una de las actividades de mantenimiento más importantes con las impresoras 3D, al igual que la boquilla, necesita ser limpiada frecuentemente cada vez que se imprime y así evitar que se solidifique o cristalice el filamento y que resulte averiado el cabezal que es una de las partes más costosas de la impresora 3D.
 
     p.mb-5 Revise a continuación cómo y cuándo se debe realizar.
 

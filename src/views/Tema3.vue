@@ -44,7 +44,6 @@
       .tarjeta.colormodal(x="3.5%" y="20.2%" numero="1")
         .row.justify-content-center.mb-5.p-5
           .col-7
-            p <b> <em>Software</em> de modelado sólido</b>
 
             p Partiendo del dibujo en 2D con un <em>software</em> de diseño asistido por computador CAD al que se le da volumen mediante herramientas de modelado. Es importante tener en cuenta que para llegar a modelar con éxito en 3D con este tipo de <em>software</em>, es necesario haber adquirido previamente las habilidades de dibujo o boceto en 2D, sin embargo, existen soluciones básicas de modelado en 3D bastante simples para de aprender.
 
@@ -55,8 +54,9 @@
       .tarjeta.colormodal(x="96.5%" y="20.2%" numero="2")
         .row.justify-content-center.mb-5.p-5
           .col-7
-            p <b> <em>Software</em> de modelado de superficies</b>
-
+            br
+            br
+            br
             p El <em>software</em> de modelado de superficies es utilizado para definir la superficie de los objetos y no el contenido interior, es muy común en el campo del arte o en campos en los que  los diseñadores buscan representar los objetos con alta calidad en su estética y en acabados superficiales, así como en la animación en 3D, las marcas más reconocidas son: Dassaul Systemes, Blender, Rhinoceros entre otros.
 
           .col-5
@@ -66,9 +66,10 @@
       .tarjeta.colormodal(x="3.5%" y="69.8%" numero="3")
         .row.justify-content-center.mb-5.p-5
           .col-7
-            p <b> <em>Software</em> de modelado orgánico</b>
-
-            p El<em>software</em> de modelado orgánico es una herramienta que se utiliza para modelar superficies con alta calidad en sus acabados y texturas, es utilizado para la creación en 3D de personajes, obras de arte, esculturas y diferentes elementos para animación muy aproximada a la realidad, entre los programas más conocidos se encuentra: Zbrush de Pixologic y Mudbox de Autodesk.
+            br
+            br
+            br
+            p El<em> software</em> de modelado orgánico es una herramienta que se utiliza para modelar superficies con alta calidad en sus acabados y texturas, es utilizado para la creación en 3D de personajes, obras de arte, esculturas y diferentes elementos para animación muy aproximada a la realidad, entre los programas más conocidos se encuentra: Zbrush de Pixologic y Mudbox de Autodesk.
 
           .col-5
             figure
@@ -77,8 +78,9 @@
       .tarjeta.colormodal(x="96.5%" y="69.8%" numero="4")
         .row.justify-content-center.mb-5.p-5
           .col-7
-            p <b> <em>Software</em> de modelado optimización</b>
-
+            br
+            br
+            br
             p El <em>software</em> de optimización permite que el material de un objeto sea distribuido de la forma más eficiente, es decir de acuerdo con las funciones que vaya a tener, eliminar el material que no ejerza algún esfuerzo durante su función. Resultado de esto es que la pieza resistirá los esfuerzos y tendrá el peso mínimo requerido. Este Software es utilizado en las industrias aeronáutica, automotriz entre otras, las marcas más reconocidas son: SolidThinking Inspire, Ansys, 4D_Additive o Crea Simulate.
 
           .col-5
@@ -100,7 +102,7 @@
             p <b><em>Slicers 3D</em> o <em>software</em> de laminado</b>
             br
             br
-            p Los slicers 3D convierten el modelo 3D creado en CAD, en rebanadas o capas cuyo espesor es el mismo diámetro del cabezal de la impresora 3D en la que se quiere imprimir.
+            p Los <em>slicers</em> 3D convierten el modelo 3D creado en CAD, en rebanadas o capas cuyo espesor es el mismo diámetro del cabezal de la impresora 3D en la que se quiere imprimir.
     .row.justify-content-end.align-items-center.mb-5
       .col-lg-8 
       .col-10
@@ -127,14 +129,14 @@
     p.mb-5 Si bien encontramos muchas aplicaciones o programas asociados a la impresión 3D, a continuación, se conocerán algunas otras que pueden servir en algún momento. 
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-acento-botones.p-5
+      .col-md.tarjeta.color-tar-1.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img-9.png')
         h2.text-center <em>Softwares</em> para proteger los diseños
         p.text-center En el mercado hoy en día se puede encontrar diferentes soluciones o complementos cuyo objetivo principal es la protección de los archivos de los modelos y los datos cuando estos son muy importantes o están expuestos, estos son protegidos de tal forma que pueden ser usados, enviados o compartidos de manera segura.
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-tar-2.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
