@@ -90,7 +90,7 @@
     separador
 
     #t_3_2.titulo-segundo.color-acento-contenido.pb-2
-      h3 3.2 <em>Slicers 3D</em> y programas reparadores de archivos STL
+      h3 3.2 <em>Software slicers 3D</em> y programas reparadores de archivos STL
 
     .row 
       .col-10
