@@ -5,121 +5,187 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Configuración de impresoras 3D
+      h1 Operación de impresoras 3D
 
-    p Antes de comenzar cualquier proceso con la impresora es necesario asegurarse que la impresora va a trabajar sin inconvenientes, para esto, primero se debe inspeccionar algunos aspectos.
+    p.mb-5 La impresión 3D cada día se abre más campo en diferentes áreas, no solo industrialmente sino también en hogares; esto incrementa sus usos y aplicaciones. Por lo general, se mencionan solo los beneficios, pero también deben tenerse en cuenta algunas precauciones al comenzar a utilizarla.
 
-    p.mb-5 Revise estos aspectos generales de la configuración de la impresora 3D.
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-tar-1.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-1.png')
+        h2.text-center Gases y olores desprendidos
+        p.text-center El ácido polilactico o PLA, el acrilonitrilo butadieno estireno o ABS y el poliestireno de alto impacto o HIPS son los polímeros más utilizados en los procesos de impresión 3D, se recomienda evitar la impresión en lugares o entornos caseros con materiales que emitan gases u olores.
+      .col-md.tarjeta.color-tar-2.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-2.png')
+        h2.text-center Posibles focos de incendios
+        p.text-center Las impresoras 3D que no presentan certificados de calidad como el certificado europeo CE, tienen alto nivel de riesgo de llegar a presentar fallos tan peligrosos que desencadenarían un incendio.
 
-    .row.justify-content-center(data-aos="fade-down")
-      .col-lg-9.position-relative.ancho
-        .avatar
-          figure
-            img(src="@/assets/curso/temas/tema4/img-1.png", alt="alt").img250
-        .crd.crd--avatarHorizontal.crd--first.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/temas/tema4/img-2.png", alt="alt").img100
+    .row.justify-content-center.mb-5 
+      .col-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema5/img-3.png")
             .col
-              h5 De acuerdo con su impresora, revisar el manual <span>de usuario</span>
-              p.me-5 Ciertamente, el primer paso antes de poner a funcionar cualquier dispositivo es revisar el manual del usuario del modelo adquirido. 
-        .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/temas/tema4/img-3.png", alt="alt").img100
-            .col
-              h5 Conocer el tipo de impresora
-              p.me-5 Inicialmente es importante identificar el tipo de impresora 3D que se tiene, ya que algunas requieren que sus partes sean acopladas y ajustadas antes de ser utilizadas, entonces es importante seguir las instrucciones para el armado.
-        .crd.crd--avatarHorizontal.crd--last.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/temas/tema4/img-4.png", alt="alt").img100
-            .col
-              h5 Verifique si hay errores de <span>fabricación</span>
-              p.me-5 Se puede presentar que la impresora o sus componentes desde la fábrica traigan algún defecto, o que en el embalaje no estén la totalidad de sus componentes, o en el transporte se hayan afectado en su estructura o funcionamiento. Para esto es mejor antes de iniciar el proceso de impresión, verificar que todo esté en orden, de no ser así hacerlo saber al fabricante o comercializador.
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Para saber más sobre las precauciones que se deben tener al usar una impresora 3D, descargue y lea el documento que se encuentra a continuación.  
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco-cinco(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
-    separador 
+    .row.justify-content-center
+      .col-10
+        .cajon.color-cajon-5.p-4.mb-4
+          p Cuando se tiene una impresora 3D en un entorno familiar o casero, es importante ser consciente de que esta no es un juguete o un accesorio que pasa inadvertido, al contrario, una impresora 3D presenta una serie de riesgos en su funcionamiento y es recomendable que se adquieran con los certificados mínimos de calidad como el europeo CE y que traigan los filtros exigidos y las carcasas necesarias para mitigar los posibles riesgos.
 
-    #t_4_1.titulo-segundo.color-acento-contenido.pb-2
-      h3 4.1 Alistamiento de impresoras 3D
+    h4.my-5 Materiales e insumos para impresión 3D
 
     .row.mb-5 
       .col-2
-        figure
-          img(src="@/assets/curso/temas/tema4/img-5.png")
-      .col-10
-        p Habiendo inicialmente consultado el manual de la impresora, ahora se debe realizar su alistamiento para estar seguros que todo funcionara a la perfección.
-        p Analice este proceso que nos enseña qué situaciones tener en cuenta a la hora de hacer una impresión 3D.
-
-    .row
-      .col-lg-8.order-2.order-lg-1
-        TabsA.color-secundario.mb-5        
-          .tarjeta-3.p-4(titulo="Nivelar el marco")
-            p La nivelación de la impresora 3D es lo primero que se debe hacer a la hora del alistamiento o configuración, esta se hace, no con respecto a la superficie sobre la cual está ubicada ni tampoco con respecto al piso donde se dispuso, se debe nivelar de acuerdo con los componentes internos que permitirán que haya una estructura totalmente plana para comenzar a imprimir con el material de trabajo.
-            p Para esta acción debe seguir el procedimiento que seguramente trae el manual y utilizando las herramientas que en el recomiendan.
-
-          .tarjeta-3.p-4(titulo="Nivelar la cama")
-            p Luego de que el marco quedó nivelado, ahora se debe nivelar la cama, ya que esta soportará los dos componentes, al igual que en el paso anterior, se debe seguir las indicaciones del fabricante en el manual, si después de hacerlo la cama presenta desniveles, puede ser defecto de fabricación y no se puede corregir, entonces se debe reemplazar bien sea con un repuesto o con un objeto del que se tenga seguridad de su planitud, puede ser un vidrio o un espejo.
-
-          .tarjeta-3.p-4(titulo="Lubricar")
-            p Una vez la impresora 3D esta lista, es necesario lubricar las piezas que por su función sean indispensables, es decir, las piezas articuladas o móviles, se puede utilizar como lubricante grasas o aceites de silicona, normalmente en las directrices de fábrica incluyen las recomendaciones de contenido y cantidades.
-          .tarjeta-3.p-4(titulo="Primera capa")
-            p Al iniciar la impresión se recomienda que la impresora esté configurada para que las dos o tres primeras capas se apliquen con una velocidad baja y para las posteriores se irá incrementando, esto con el fin de que las capas de base o soporte sean suficientemente fuertes para soportar el resto del objeto.
-      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure
-          img(src="@/assets/curso/temas/tema4/img-6.png").m-auto
-
-    separador 
-
-    #t_4_2.titulo-segundo.color-acento-contenido.pb-2
-      h3 4.2 Transferencia de archivos a impresoras 3D
-
-    .row.mb-5
-      .col-7.col-md-7
-        p.mb-3 Para  Regidor (2021), “trasladar la información de la PC a la impresora no es tan simple, cómo pasar el archivo 3D a la impresora, tanto si sabe cómo dibujar en 3D, como si lo que hace es descargar archivos <em>online</em> para poderlos imprimir en casa, necesita saber cómo pasar el archivo 3D a la impresora.”
-
-        .row.justify-content-center.align-items-center
-          .col-lg-12
-            .cajon.color-bloque.p-4.mb-3
-              p “Los formatos de salida de los programas de dibujo en 3D son muy variados; cada firma tiene su propio estándar, pero a la hora de imprimir todos deben convertirse a un formato universal, el archivo del tipo *.<b>STL</b>”. 
-
-        p Tanto si modela los objetos con algún <em>software</em> de diseño asistido por computador CAD, o si descarga los archivos de alguna galería, para pasar estos archivos del computador a la impresora para imprimirlos en 3D, no es tan fácil como parece, cada marca del programa en el que fue creado el modelo tiene su propia extensión o formato al guardar el archivo, para poder imprimirlo es necesario que los archivos tengan la extensión *.STL pero para que esto se dé, el archivo *.STL no se puede pasar directamente a la impresora sin que haya sido convertido al lenguaje Gcode que mencionamos anteriormente.
-
-      .col-5.col-md-5
         figure(data-aos="fade-down")
-          img(src="@/assets/curso/temas/tema4/img-7.png")
+          img(src="@/assets/curso/temas/tema5/img-4.png")
+      .col-10
+        p La impresión en 3D se puede realizar con diferentes materiales y métodos, estos deben corresponder de acuerdo con su tecnología; los materiales más comunes para imprimir en 3D deben tener las características que exijan tanto las condiciones técnicas de la impresora como las del producto esperado.
+        p Entre los materiales más utilizados para la impresión 3D destacan:
 
-    p.mb-5 Pasos para la transferencia de archivos usando <em>Chitubox</em>:
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
+      .tarjeta.color-tarjeta-5.p-3
+        .row.justify-content-center.mb-4
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Ácido poliláctico PLA
+        p.text-center Es un polímero que contiene los mismos elementos del ácido láctico y tiene atributos semejantes al tereftalato de polietileno PET, utilizado generalmente en la fabricación de contenedores obtenido en base a almidones de maíz, yuca o caña de azúcar.
+      .tarjeta.color-tarjeta-5.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Laywoo D3
+        p.text-center Material obtenido al mezclar en diferentes proporciones, un polímero parecido al PLA con aserrín de madera resultando un material con apariencia semejante a la madera y que también permite que sea acabado mediante procesos como lijado y pintado.
+      .tarjeta.color-tarjeta-5.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Acrilonitrilo butadieno estireno ABS
+        p.text-center Polímero de alta resistencia en sus propiedades mecánicas muy renuente a la temperatura, flexible y sencillo de pintar, se utiliza principalmente en sectores como el automotriz, el industrial y de productos domésticos.
+      .tarjeta.color-tarjeta-5.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Poliestireno de alto impacto HIPS
+        p.text-center Polímero de la familia de los poliestirenos que a temperatura ambiente es muy frágil, para aumentar su resistencia se le adiciona polibutaieno, comúnmente se le conoce como HIPS o PSAI.
+      .tarjeta.color-tarjeta-5.p-2
+        .row.justify-content-center.mb-4
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Tereftalato de polietileno PET
+        p.text-center Polímero obtenido por la policondensación entre el ácido tereftalático y el etilenglicol, es el polímero más utilizado en la producción de contenedores para bebidas, hace parte de los sintéticos clasificados como poliésteres.
+      .tarjeta.color-tarjeta-5.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Elastomero termoplastico TPE
+        p.text-center Polímero proveniente de la mezcla de termoplásticos y elastómeros, esta combina las características de cada uno de estos elementos, también se les reconoce como TPE o cauchos termoplásticos.
+      .tarjeta.color-tarjeta-5.p-1
+        .row.justify-content-center.mb-2
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Filaflex
+        p.text-center Material en forma de hebra o filamento de gran elasticidad, obtenido del poliuretano junto con algunos aditivos, se desempeña más lento durante la impresión 3D, se puede aprovechar las propiedades de elasticidad y flexibilidad en la producción de elementos como zapatos deportivos, prótesis, pulseras o partes de teléfonos móviles.
+      .tarjeta.color-tarjeta-5.p-1
+        .row.justify-content-center.mb-2
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Laybrick
+        p.text-center Es un material que se obtiene de mezclar algunos polímeros con yeso, por tanto, las impresiones tendrán una apariencia semejante a una piedra o ladrillo, permite ser lijado y pintado, está conformado por arena y un aglutinante plástico que genera una superficie con apariencia de cerámica o piedra.
+      .tarjeta.color-tarjeta-5.p-4
+        .row.justify-content-center.mb-4
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Nylon
+        p.text-center Es un polímero creado en laboratorio clasificado dentro de las poliamidas, es un filamento con propiedades de resistencia y elasticidad utilizado generalmente en la producción de telas y tejidos.
+        br
+      .tarjeta.color-tarjeta-5.p-4
+        .row.justify-content-center.mb-4
+          .col-8
+            img(src='@/assets/curso/temas/tema5/img-5.png')
+        h2.text-center Metales amorfos BGM
+        p.text-center Son los metales cuya estructura presenta un desorden a nivel atómico que produce en su solidificación numerosas formas, también son cristalinos y conforman un orden elevado de sus átomos diferente al resto de los metales.
 
-    .bg--img_03
-      .row.justify-content-center.mb-4
-        .col-lg-4
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema4/img-8.png", alt="alt").img400.m-auto
-        .col-lg-8
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-            .row(titulo="Paso 1")
-              .col-12
-                p.mb-0 Abrir el archivo STL con <em>Chitubox</em>, antes, es necesario que se haya instalado el programa para poder configurar la impresora que deberá aparecer en la lista de impresoras y fabricantes compatibles que trae el programa.
+    h4.my-5 Generación de prototipos 3D
 
-            .row(titulo="Paso 2")
-              .col-12
-                p.mb-0 La pieza no se puede imprimir de una vez, es necesario que se revise primero si está de acuerdo con su forma, requiere de unas estructuras de soporte o bastones, que permite que a medida que la impresión avance no se vaya a caer a la bandeja o que no se doble ya que el material en un comienzo no está sólido. Luego se configuran los tiempos de exposición, la cantidad de capas y otras medidas importantes.
+    p.mb-5 Conozca a profundidad el proceso de generación de prototipos 3D que se muestra en el siguiente video:
 
-            .row(titulo="Paso 3")
-              .col-12
-                p.mb-0 En este momento se comienzan a crear las capas una a una de acuerdo con la tecnología de impresión 3D que se tenga, es decir, rebanar el modelo en capas que luego serán las que definirán el avance en la impresión, cuando el objeto esté totalmente laminado se debe guardar en un formato que admita la impresora. Cada marca tiene su propio formato, entonces, si tiene <em>Chitubox</em> instalada, la impresora se encarga de elegir este formato.
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-            .row(titulo="Paso 4")
-              .col-12
-                p.mb-0 Cuando ya esté el archivo listo, se debe pasar a la impresora, bien sea a través de algún dispositivo de almacenamiento USB o si la impresora cuenta con alguna tecnología inalámbrica como <em>wifi</em>, con <em>Chitubox</em> puede hacerlo. 
+    h4.my-5 Acabados superficiales a prototipos 3D
 
-            .row(titulo="Paso 5")
-              .col-12
-                p.mb-0 Cuando ya el archivo pueda ser reconocido o leído por la impresora 3D, entonces al igual que con una impresora convencional, se pulsará la opción <em>print</em>, seleccionando el archivo en la carpeta correspondiente. 
+    p Si luego de imprimir en 3D, los productos todavía no son los esperados, entonces, es necesario dar un mejor acabado. Esto puede ser para mejorar la textura, color o, simplemente, para deshacerse de elementos como los soportes que no hacen parte del objeto.
+
+    p.mb-5 Revise, a continuación, algunos procesos existentes para darle acabados a las superficies de las piezas y los prototipos:
+
+    .tarjeta.color-slider.p-4
+      SlyderA(tipo="b")
+        .row
+          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+            h4.ms-5 Suavizado por lija
+            p.ms-5 Consiste en eliminar de la superficie del objeto, el material que sobra mediante el uso de elementos como sierras, cuchillas, espátulas, limas, papel de lijado, esmeriles o pulidoras con el fin de lograr el acabado superficial deseado.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-6.png')
+        .row
+          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+            .col-lg-8
+            h4.ms-5 Suavizado por <em>Sand Blast</em>
+            p.ms-5 Este acabado superficial utiliza diminutos fragmentos de plástico aplicados con presión sobre la superficie mediante la pistola de <em>sand blast</em>, generalmente alimentada por aire comprimido, este proceso permite dar un acabado de alta calidad sin afectar las dimensiones y sin distorsionar las piezas, también el <em>sand blast</em> se caracteriza por realizarse en tiempos más cortos frente a otros procesos de acabados superficiales y más eficiente ya que no utiliza instrumentos, lijas, ni solventes.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-7.png')
+        .row
+          .col-md-6.mb-4.mb-md-0.row.row.justify-content-center.align-items-center
+            h4.ms-5 Suavizado por Vibración
+            p.ms-5 En este proceso de acabado superficial se utiliza una máquina vibradora y el material abrasivo en un contenedor con la pieza a tratar, dependiendo el acabado que se quiera dar, se utiliza el material abrasivo, es decir, para brillar la pieza se usa un grano fino y para solamente el lijado se usa un grano más grueso o de mayor tamaño, algunas veces se adicionan líquidos que pueden servir de lubricantes o para evitar que se genere material particulado o polvo. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-8.png')
+        .row
+          .col-md-6.mb-4.mb-md-0.row.row.justify-content-center.align-items-center
+            h4.ms-5 Acabado por inmersión de acetona
+            p.ms-5 Este acabado superficial utiliza la acetona, que reacciona químicamente con el ABS, haciendo que en este la rugosidad sea menor hasta llegar al brillo, se logra sumergiendo la pieza en acetona líquida y dejándola por un tiempo determinado.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-9.png')
+        .row
+          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+            h4.ms-5 Acabado por vapor de acetona
+            p.ms-5 En este proceso de acabado superficial la pieza a tratar se coloca en la parte superior de un contenedor con acetona, el contenedor debe estar sellado y gracias a los vapores volátiles de la acetona se presenta una reacción química que permite eliminar las rugosidades de la pieza y logrando un acabado más fino.
+            p.ms-5 Este proceso resulta ser menos dañino para la superficie que el método de inmersión descrito anteriormente y puede tardar algunos minutos más permitiendo un mayor control.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-10.png')
+        .row
+          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+            h4.ms-5 Pintura
+            p.ms-5 En las impresoras 3D se obtienen piezas destinadas para la investigación, para el prototipado o para producción, pero de acuerdo con la tecnología usada su coloración es muy limitada, entonces, para poder ser presentados en fotografías o en folletos o simplemente para cumplir con los requisitos estéticos planeados, los productos se pueden someter a proceso de pintura, previamente hayan sido lijados.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-11.png')
+        .row
+          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-around
+            .col-lg-8
+            h4.ms-5 Galvanizado
+            p.ms-5 En el proceso de galvanizado, se recubre la superficie del objeto impreso en 3D con una capa de metal que puede ser plata, oro, cromo, níquel o cobre; aparte de la apariencia metálica, también ofrece más dureza y más resistencia al desgaste.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema5/img-12.png') 
 </template>
 
 <script>

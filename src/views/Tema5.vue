@@ -5,197 +5,127 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Operación de impresoras 3D
+      h1 Mantenimiento de impresoras 3D
 
-    p.mb-5 La impresión 3D cada día se abre más campo en diferentes áreas, no solo industrialmente sino también en hogares, esto incrementa sus usos y aplicaciones, generalmente encontramos que se mencionan solo los beneficios, pero está también debe tener en cuenta algunas precauciones al comenzar a utilizarla.
+    .tarjeta.fondo1.color-gris.mb-5(data-aos="fade-down")
+      .row.justify-content-end.align-items-center
+        .col-md-5.order-md-first.order-sm-last.pt-4
 
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-tar-1.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-1.png')
-        h2.text-center Gases y olores desprendidos
-        p.text-center El ácido polilactico o PLA, el acrilonitrilo butadieno estireno o ABS y el poliestireno de alto impacto o HIPS son los polímeros más utilizados en los procesos de impresión 3D, se recomienda evitar la impresión en lugares o entornos caseros con materiales que emitan gases u olores.
-      .col-md.tarjeta.color-tar-2.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-2.png')
-        h2.text-center Posibles focos de incendios
-        p.text-center Las impresoras 3D que no presentan certificados de calidad como el certificado europeo CE, tienen alto nivel de riesgo de llegar a presentar fallos tan peligrosos que desencadenarían un incendio.
+          p.p-4 Las impresoras 3D son herramientas que, con un mantenimiento preventivo adecuado, pueden durar largos periodos funcionando sin problemas. A continuación, se encuentran algunos de los ajustes necesarios para que la impresora esté en perfectas condiciones.
 
-    .row.justify-content-center.mb-5 
-      .col-10
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema5/img-3.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p Para saber más sobre las precauciones que se deben tener al usar una impresora 3D, descargue y lea el documento que se encuentra a continuación.  
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco-cinco(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+        .col-md-6.mb-0.mb-md-0.order-md-last.order-sm-first
+          figure.p-3
+            img(src="@/assets/curso/temas/tema6/img-1.png")
 
-    .row.justify-content-center
-      .col-10
-        .cajon.color-cajon-5.p-4.mb-4
-          p Cuando se tiene una impresora 3D en un entorno familiar o casero, es importante ser consciente de que esta no es un juguete o un accesorio que pasa inadvertido, al contrario, una impresora 3D presenta una serie de riesgos en su funcionamiento y es recomendable que se adquieran con los certificados mínimos de calidad como el europeo CE y que traigan los filtros exigidos y las carcasas necesarias para mitigar los posibles riesgos.
-
-    separador 
-
-    #t_5_1.titulo-segundo.color-acento-contenido.pb-2
-      h3 5.1 Materiales e insumos para impresión 3D
-
-    .row.mb-5 
-      .col-2
-        figure(data-aos="fade-down")
-          img(src="@/assets/curso/temas/tema5/img-4.png")
-      .col-10
-        p La impresión en 3D se puede realizar con diferentes materiales y métodos, estos deben corresponder de acuerdo con su tecnología; los materiales más comunes para imprimir en 3D deben tener las características que exijan tanto las condiciones técnicas de la impresora como las del producto esperado.
-        p Entre los materiales más utilizados para la impresión 3D destacan:
-
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
-      .tarjeta.color-tarjeta-5.p-3
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Ácido poliláctico PLA
-        p.text-center Es un polímero que contiene los mismos elementos del ácido láctico y tiene atributos semejantes al tereftalato de polietileno PET, utilizado generalmente en la fabricación de contenedores obtenido en base a almidones de maíz, yuca o caña de azúcar.
-      .tarjeta.color-tarjeta-5.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Laywoo D3
-        p.text-center Material obtenido al mezclar en diferentes proporciones, un polímero parecido al PLA con aserrín de madera resultando un material con apariencia semejante a la madera y que también permite que sea acabado mediante procesos como lijado y pintado.
-      .tarjeta.color-tarjeta-5.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Acrilonitrilo butadieno estireno ABS
-        p.text-center Polímero de alta resistencia en sus propiedades mecánicas muy renuente a la temperatura, flexible y sencillo de pintar, se utiliza principalmente en sectores como el automotriz, el industrial y de productos domésticos.
-      .tarjeta.color-tarjeta-5.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Poliestireno de alto impacto HIPS
-        p.text-center Polímero de la familia de los poliestirenos que a temperatura ambiente es muy frágil, para aumentar su resistencia se le adiciona polibutaieno, comúnmente se le conoce como HIPS o PSAI.
-      .tarjeta.color-tarjeta-5.p-2
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Tereftalato de polietileno PET
-        p.text-center Polímero obtenido por la policondensación entre el ácido tereftalático y el etilenglicol, es el polímero más utilizado en la producción de contenedores para bebidas, hace parte de los sintéticos clasificados como poliésteres.
-      .tarjeta.color-tarjeta-5.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Elastomero termoplastico TPE
-        p.text-center Polímero proveniente de la mezcla de termoplásticos y elastómeros, esta combina las características de cada uno de estos elementos, también se les reconoce como TPE o cauchos termoplásticos.
-      .tarjeta.color-tarjeta-5.p-1
-        .row.justify-content-center.mb-2
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Filaflex
-        p.text-center Material en forma de hebra o filamento de gran elasticidad, obtenido del poliuretano junto con algunos aditivos, se desempeña más lento durante la impresión 3D, se puede aprovechar las propiedades de elasticidad y flexibilidad en la producción de elementos como zapatos deportivos, prótesis, pulseras o partes de teléfonos móviles.
-      .tarjeta.color-tarjeta-5.p-1
-        .row.justify-content-center.mb-2
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Laybrick
-        p.text-center Es un material que se obtiene de mezclar algunos polímeros con yeso, por tanto, las impresiones tendrán una apariencia semejante a una piedra o ladrillo, permite ser lijado y pintado, está conformado por arena y un aglutinante plástico que genera una superficie con apariencia de cerámica o piedra.
-      .tarjeta.color-tarjeta-5.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Nylon
-        p.text-center Es un polímero creado en laboratorio clasificado dentro de las poliamidas, es un filamento con propiedades de resistencia y elasticidad utilizado generalmente en la producción de telas y tejidos.
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema6/img-2.png')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        h4 Limpieza de la boquilla
         br
-      .tarjeta.color-tarjeta-5.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Metales amorfos BGM
-        p.text-center Son los metales cuya estructura presenta un desorden a nivel atómico que produce en su solidificación numerosas formas, también son cristalinos y conforman un orden elevado de sus átomos diferente al resto de los metales.
+        br
+        p La boquilla y el cabezal son las partes de la impresora 3D que requieren ser limpiadas al finalizar cada impresión si queremos que la impresora se mantenga en condiciones ideales de funcionamiento, esto debido a que hay una posibilidad de que el filamento del material quede pegado a alguna de estas partes.
 
-    separador 
+    p.mb-5 ¿Cómo y cuándo se debe realizar la limpieza de la boquilla?
 
-    #t_5_2.titulo-segundo.color-acento-contenido.pb-2
-      h3 5.2 Generación de prototipos 3D
+    .row
+      .col-lg-8.order-2.order-lg-1
+        TabsA.color-secundario.mb-5        
+          .tarjeta-3.p-4(titulo="¿Cómo?")
+            h4 ¿Cómo limpiar la boquilla?
+            p Se deben eliminar los residuos que quedan pegados a la boquilla de la salida del material, se puede utilizar un cepillo metálico, una espátula o unas pinzas de puntas finas.
 
-    p.mb-5 Conozcamos el proceso de generación de prototipos 3D presentado en este video
+          .tarjeta-3.p-4(titulo="¿Cuándo?")
+            h4 ¿Cuándo debemos limpiar la boquilla?
+            p La boquilla se debe limpiar siempre que se utilice la impresora 3D, al finalizar cada impresión se debe dejar secar o enfriar la punta de la boquilla y retirar con cualquiera de las herramientas señaladas anteriormente.
 
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img.img-200(src="@/assets/curso/temas/tema6/img-3.png").m-auto
 
-    separador 
+    .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-6
+      .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
+        .col-lg-4.mb-4.mb-lg-0.col-md-10
+        .col-lg-8.col-md-10
+          .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
+            h4 Limpieza del cabezal
+            p La limpieza del cabezal es una de las actividades de mantenimiento más importantes con las impresoras 3D, al igual que la boquilla, necesita ser limpiada frecuentemente cada vez que se imprime y así evitar que se solidifique o cristalice el filamento y que resulte averiado el cabezal que es una de las partes más costosas de la impresora 3D.
 
-    #t_5_3.titulo-segundo.color-acento-contenido.pb-2
-      h3 5.3 Acabados superficiales a prototipos 3D
+    p.mb-5 ¿Cómo y cuándo revisar la limpieza del cabezal?
 
-    p Luego de imprimir en 3D encontramos que los productos aún no son los esperados, entonces, es necesario darle un mejor acabado, este puede ser para mejorar la textura, color o simplemente para deshacerse de elementos como los soportes que no hacen parte del objeto.
+    .row.mb-5
+      .col-lg-8.order-2.order-lg-1
+        TabsA.color-secundario.mb-5        
+          .tarjeta-3.p-4(titulo="¿Cómo?")
+            h4 ¿Cómo se debe limpiar el cabezal?
+            p Para tener un mejor resultado, al terminar cada impresión se debe extraer la totalidad del filamento que está dentro del cabezal extrusor, generalmente se puede usar una llave allen M2 teniendo mucho cuidado de que llegue a quedar prensada y se genere un daño mayor.
 
-    p.mb-5 Revise algunos procesos existentes para darle acabados a las superficies de las piezas y prototipos.
+          .tarjeta-3.p-4(titulo="¿Cuándo?")
+            h4 ¿Cuándo se debe limpiar el cabezal? 
+            p Este procedimiento de limpieza del cabezal se debe hacer siempre que se utilice la impresora 3D, la extracción del filamento se hace al terminar cada impresión y sin dejar enfriar el cabezal durante 40 minutos aproximadamente.
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img.img-200(src="@/assets/curso/temas/tema6/img-5.png").m-auto
 
-    .tarjeta.color-slider.p-4
-      SlyderA(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
-            h4.ms-5 Suavizado por lija
-            p.ms-5 Consiste en eliminar de la superficie del objeto, el material que sobra mediante el uso de elementos como sierras, cuchillas, espátulas, limas, papel de lijado, esmeriles o pulidoras con el fin de lograr el acabado superficial deseado.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-6.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
-            .col-lg-8
-            h4.ms-5 Suavizado por <em>Sand Blast</em>
-            p.ms-5 Este acabado superficial utiliza diminutos fragmentos de plástico aplicados con presión sobre la superficie mediante la pistola de <em>sand blast</em>, generalmente alimentada por aire comprimido, este proceso permite dar un acabado de alta calidad sin afectar las dimensiones y sin distorsionar las piezas, también el <em>sand blast</em> se caracteriza por realizarse en tiempos más cortos frente a otros procesos de acabados superficiales y más eficiente ya que no utiliza instrumentos, lijas, ni solventes.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-7.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.row.justify-content-center.align-items-center
-            h4.ms-5 Suavizado por Vibración
-            p.ms-5 En este proceso de acabado superficial se utiliza una máquina vibradora y el material abrasivo en un contenedor con la pieza a tratar, dependiendo el acabado que se quiera dar, se utiliza el material abrasivo, es decir, para brillar la pieza se usa un grano fino y para solamente el lijado se usa un grano más grueso o de mayor tamaño, algunas veces se adicionan líquidos que pueden servir de lubricantes o para evitar que se genere material particulado o polvo. 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-8.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.row.justify-content-center.align-items-center
-            h4.ms-5 Acabado por inmersión de acetona
-            p.ms-5 Este acabado superficial utiliza la acetona, que reacciona químicamente con el ABS, haciendo que en este la rugosidad sea menor hasta llegar al brillo, se logra sumergiendo la pieza en acetona líquida y dejándola por un tiempo determinado.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-9.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
-            h4.ms-5 Acabado por vapor de acetona
-            p.ms-5 En este proceso de acabado superficial la pieza a tratar se coloca en la parte superior de un contenedor con acetona, el contenedor debe estar sellado y gracias a los vapores volátiles de la acetona se presenta una reacción química que permite eliminar las rugosidades de la pieza y logrando un acabado más fino.
-            p.ms-5 Este proceso resulta ser menos dañino para la superficie que el método de inmersión descrito anteriormente y puede tardar algunos minutos más permitiendo un mayor control.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-10.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
-            h4.ms-5 Pintura
-            p.ms-5 En las impresoras 3D se obtienen piezas destinadas para la investigación, para el prototipado o para producción, pero de acuerdo con la tecnología usada su coloración es muy limitada, entonces, para poder ser presentados en fotografías o en folletos o simplemente para cumplir con los requisitos estéticos planeados, los productos se pueden someter a proceso de pintura, previamente hayan sido lijados.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-11.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-around
-            .col-lg-8
-            h4.ms-5 Galvanizado
-            p.ms-5 En el proceso de galvanizado, se recubre la superficie del objeto impreso en 3D con una capa de metal que puede ser plata, oro, cromo, níquel o cobre; aparte de la apariencia metálica, también ofrece más dureza y más resistencia al desgaste.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img-12.png')
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema6/img-6.png')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        h4.mb-0 Mantenimiento de la cama de impresión 
+        br
+        br
+        p La cama de impresión es un elemento de la impresora 3D, que requiere una atención constante porque sobre esta se depositará, sin importar la tecnología que se tenga, el material fundido, y el resultado depende que se encuentre totalmente plana y permita una óptima solidificación. 
 
+    p.mb-5 ¿Cómo y cuándo realizar mantenimiento de cama de impresión?
+
+    .row.mb-5
+      .col-lg-8.order-2.order-lg-1
+        TabsA.color-secundario.mb-5        
+          .tarjeta-3.p-4(titulo="¿Cómo?")
+            h4 ¿Cómo se debe limpiar la cama de impresión?
+            p La cama de impresión se puede limpiar de muchas formas, las más recomendables pueden son: 
+            p Eliminar los residuos de filamento adheridos a la cama, utilizando una espátula metálica, también se puede previamente sumergir la base en agua caliente con el fin de que se ablanden y sea más fácil despegarlos.
+            p Se pueden también despegar los residuos de filamentos adheridos, utilizando una cinta de doble cara aprovechando que con esta se remueven las partículas más pequeñas.
+
+          .tarjeta-3.p-4(titulo="¿Cuándo?")
+            h4 ¿Cuándo limpiar la cama de impresión?
+            p La cama de impresión se debe limpiar cada vez que se detecte algún elemento ajeno adherido a esta, es decir es necesario estar revisando en todo momento que esté limpia y libre de cualquier impureza.
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img.img-200(src="@/assets/curso/temas/tema6/img-7.png").m-auto
+
+    .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-7
+      .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
+        .col-lg-4.mb-4.mb-lg-0.col-md-10
+        .col-lg-8.col-md-10
+          .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
+            h4 Limpieza de Baleros y Barras
+            p La limpieza y lubricación de los baleros y barras, es una de las actividades del mantenimiento preventivo de la impresora 3D que no puede faltar, para un óptimo funcionamiento y para evitar el deterioro de estas partes.
+
+    p.mb-5 Revise a continuación cómo y cuándo se debe realizar:
+
+    .row.mb-5
+      .col-lg-8.order-2.order-lg-1
+        TabsA.color-secundario.mb-5        
+          .tarjeta-3.p-4(titulo="¿Cómo?")
+            h4 ¿Cómo limpiar y lubricar los baleros y las barras?
+            p Primero que todo se deben limpiar, puede ser con un paño, las barras y baleros para eliminar cualquier impureza presente, luego se aplica, con una brocha o un pincel, el lubricante, que puede ser grasa o silicona, se puede acudir al manual del fabricante, y finalmente se elimina el exceso de lubricante, puede ser con una servilleta o un paño de cocina.
+
+          .tarjeta-3.p-4(titulo="¿Cuándo?")
+            h4 ¿Cuándo se deben limpiar y lubricar las barras y baleros?
+            p La limpieza y lubricación de los baleros y barras de una impresora 3D depende de la frecuencia de uso, así si hacemos impresiones continuamente se debe hacer aproximadamente cada dos meses, al contrario, si el uso de la impresora es esporádico, esta actividad se puede programar hasta con una frecuencia de un año.
+            p También es muy importante tener en cuenta el entorno donde tengamos ubicada la impresora 3D, es decir si se encuentra en un ambiente donde está expuesta al polvo y a condiciones desfavorables, el tiempo para este mantenimiento debe ser menor.
+
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img.img-200(src="@/assets/curso/temas/tema6/img-9.png").m-auto
+
+    .row.justify-content-center.align-items-center
+      .col-lg-8
+        .cajon.color-acento-botones.p-4.mb-4
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros. 
 </template>
 
 <script>

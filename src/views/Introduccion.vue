@@ -12,15 +12,13 @@
     .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris(data-aos="fade-down")
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last
-          p Bienvenido al componente, Fundamentos de impresión 3D, el cual introduce las actividades necesarias para poder imprimir en 3D, partiendo del diseño de un producto modelado en CAD y llegando hasta la impresión en 3D.
+          p Apreciado aprendiz, bienvenido a este componente formativo, donde se introducen las actividades necesarias para poder imprimir en 3D, partiendo del diseño de un producto modelado en CAD.
 
-          p Este tipo de impresión hoy en día es muy común, pero sin importar que sea una moda o no, lo cierto es que tener una impresora 3D es muy útil para poder construir casi cualquier cosa, arreglos en la casa o trabajo, diseños de ideas a desarrollar o también para producir objetos comerciales a baja escala.
+          p Este tipo de impresión es muy común en la actualidad y, sin importar que sea una moda, o no, contar con implementación y conocimientos para aplicarla, es muy útil y favorece construir casi cualquier cosa: arreglos en la casa o trabajo, diseños de ideas por desarrollar o también para producir objetos comerciales a baja escala.
 
-          p Se tratarán los diferentes temas de manera que sean comprensibles y muy prácticos y, teniendo en cuenta que se trata de una fundamentación, no hay que preocuparse por tener o no experiencia en la materia.
+          p Conozca diferentes temas y elementos de la impresión 3D, comprensibles y prácticos, y fortalezca su formación, adquiriendo herramientas de crecimiento y progreso para su desempeño profesional.
 
-          p El siguiente video muestra una contextualización de la impresión 3D y de los temas que trataremos a lo largo de este ciclo formativo. 
-
-          p Para tener una mayor información revisar el material complementario que se encuentra al final del componente.
+          p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
         
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
               figure.centrar
