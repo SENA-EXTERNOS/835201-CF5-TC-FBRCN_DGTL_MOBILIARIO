@@ -11,7 +11,7 @@
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last.pt-4
 
-          p.p-4 Las impresoras 3D son herramientas que, con un mantenimiento preventivo adecuado, pueden durar largos periodos funcionando sin problemas. A continuación, se encuentran algunos de los ajustes necesarios para que la impresora esté en perfectas condiciones.
+          p.p-4 Las impresoras 3D son herramientas que, con un mantenimiento preventivo adecuado, pueden durar largos periodos funcionando sin problemas. A continuación, se encuentran algunos de los ajustes necesarios para que la impresora esté en perfectas condiciones:
 
         .col-md-6.mb-0.mb-md-0.order-md-last.order-sm-first
           figure.p-3
