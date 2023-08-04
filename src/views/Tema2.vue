@@ -25,7 +25,7 @@
 
     h4.my-5 Programas de modelización 3D
 
-    p Existen muchos programas en el mercado, con los cuáles se puede realizar modelado 3D, algunos de pago y otros con versión libre o gratuita. Todos tienen características generales similares, pero algunos se especializan en ciertos temas como CAD, acabados superficies, etc.
+    p Existen muchos programas en el mercado, con los cuáles se puede realizar modelado 3D, algunos de pago y otros con versión libre o gratuita. Todos tienen características generales similares, pero algunos se especializan en ciertos temas como CAD, acabados, superficies, etc.
 
     p.mb-5 Observemos algunas características de los <i>software</i>, más empleados, para el proceso de modelización 3D:
 
@@ -37,7 +37,7 @@
         .row.justify-content-center.mb-5.p-5
           .col-7
 
-            p Partiendo del dibujo en 2D con un <em>software</em> de diseño asistido por computador CAD al que se le da volumen mediante herramientas de modelado. Es importante tener en cuenta que para llegar a modelar con éxito en 3D con este tipo de <em>software</em>, es necesario haber adquirido previamente las habilidades de dibujo o boceto en 2D, sin embargo, existen soluciones básicas de modelado en 3D bastante simples para de aprender.
+            p Partiendo del dibujo en 2D con un <em>software</em> de diseño asistido por computador CAD al que se le da volumen mediante herramientas de modelado. Es importante tener en cuenta que para llegar a modelar con éxito en 3D con este tipo de <em>software</em>, es necesario haber adquirido previamente las habilidades de dibujo o boceto en 2D, sin embargo, existen soluciones básicas de modelado en 3D bastante simples para aprender.
 
           .col-5
             figure
@@ -46,7 +46,7 @@
       .tarjeta.colormodal(x="96.5%" y="22.2%" numero="2" tooltip="Ver mas")
         .row.justify-content-center.mb-5.p-5
           .col-7
-            p El <em>software</em> de modelado de superficies es utilizado para definir la superficie de los objetos y no el contenido interior, es muy común en el campo del arte o en campos en los que  los diseñadores buscan representar los objetos con alta calidad en su estética y en acabados superficiales, así como en la animación en 3D, las marcas más reconocidas son: Dassaul Systemes, Blender, Rhinoceros entre otros.
+            p El <em>software</em> de modelado de superficies es utilizado para definir la superficie de los objetos y no el contenido interior, es muy común en el campo del arte o en campos en los que  los diseñadores buscan representar los objetos con alta calidad en su estética y en acabados superficiales, así como en la animación en 3D, las marcas más reconocidas son: Dessault Systemes, Blender, Rhinoceros entre otros.
 
           .col-5
             figure

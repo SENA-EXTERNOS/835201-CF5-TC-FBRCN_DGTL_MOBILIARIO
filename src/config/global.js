@@ -125,9 +125,10 @@ export default {
     {
       tema: 'Mantenimiento de impresoras 3D',
       referencia:
-        'Biblioteca virtual especializada en Seguridad y salud para el trabajo. (2020).<i> Matriz legal de seguridad y salud en el trabajo</i>.',
+        'Universidad Libre-Pereira. (2019). <i>Matriz de requisitos legales en seguridad y salud en el trabajo</i>.',
       tipo: 'Normas',
-      link: 'https://deseguridadysalud.com/matriz-legal-sst-2020/',
+      link:
+        'https://www.unilibre.edu.co/pereira/images/2019/pdf/matriz-requisitos-legales-sgsst-m.pdf',
     },
     {
       tema: '<i>Softwares</i> para impresión 3D',
@@ -202,7 +203,7 @@ export default {
         'Son los polímeros que se transforman con éxito una sola vez, luego tienden a incinerarse. ',
     },
     {
-      termino: 'Termoplasticos',
+      termino: 'Termoplástico',
       significado:
         'Son los polímeros que permiten ser transformados más de una vez. ',
     },
@@ -219,7 +220,7 @@ export default {
     {
       termino: 'STL',
       significado:
-        'Se refiere al proceso de impresión y al archivo en 3D llamado esteréo litografía.',
+        'Se refiere al proceso de impresión y al archivo en 3D llamado estéreo litografía.',
     },
   ],
   referencias: [

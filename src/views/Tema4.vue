@@ -7,7 +7,7 @@
         span 4
       h1 Operación de impresoras 3D
 
-    p.mb-5 La impresión 3D cada día se abre más campo en diferentes áreas, no solo industrialmente sino también en hogares; esto incrementa sus usos y aplicaciones. Por lo general, se mencionan solo los beneficios, pero también deben tenerse en cuenta algunas precauciones al comenzar a utilizarla.
+    p.mb-5 La impresión 3D cada día se abre más campo en diferentes áreas, no solo industrialmente sino también en los hogares; esto incrementa sus usos y aplicaciones. Por lo general, se mencionan sólo los beneficios, pero también deben tenerse en cuenta algunas precauciones al comenzar a utilizarla.
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-tar-1.p-5
@@ -16,14 +16,14 @@
             figure
               img(src='@/assets/curso/temas/tema5/img-1.png')
         h2.text-center Gases y olores desprendidos
-        p.text-center El ácido polilactico o PLA, el acrilonitrilo butadieno estireno o ABS y el poliestireno de alto impacto o HIPS son los polímeros más utilizados en los procesos de impresión 3D, se recomienda evitar la impresión en lugares o entornos caseros con materiales que emitan gases u olores.
+        p.text-center El ácido poliláctico o PLA, el acrilonitrilo butadieno estireno o ABS y el poliestireno de alto impacto o HIPS son los polímeros más utilizados en los procesos de impresión 3D, se recomienda evitar la impresión en lugares o entornos caseros con materiales que emitan gases u olores.
       .col-md.tarjeta.color-tar-2.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema5/img-2.png')
         h2.text-center Posibles focos de incendios
-        p.text-center Las impresoras 3D que no presentan certificados de calidad como el certificado europeo CE, tienen alto nivel de riesgo de llegar a presentar fallos tan peligrosos que desencadenarían un incendio.
+        p.text-center Las impresoras 3D que no presentan certificados de calidad como el certificado europeo CE, tienen alto nivel de riesgo de llegar a presentar fallos tan peligrosos que desencadenaría un incendio.
 
     .row.justify-content-center.mb-5 
       .col-10
@@ -56,62 +56,62 @@
         p Entre los materiales más utilizados para la impresión 3D destacan:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
-      .tarjeta.color-tarjeta-5.p-3
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Ácido poliláctico PLA
         p.text-center Es un polímero que contiene los mismos elementos del ácido láctico y tiene atributos semejantes al tereftalato de polietileno PET, utilizado generalmente en la fabricación de contenedores obtenido en base a almidones de maíz, yuca o caña de azúcar.
-      .tarjeta.color-tarjeta-5.p-4
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Laywoo D3
         p.text-center Material obtenido al mezclar en diferentes proporciones, un polímero parecido al PLA con aserrín de madera resultando un material con apariencia semejante a la madera y que también permite que sea acabado mediante procesos como lijado y pintado.
-      .tarjeta.color-tarjeta-5.p-4
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Acrilonitrilo butadieno estireno ABS
         p.text-center Polímero de alta resistencia en sus propiedades mecánicas muy renuente a la temperatura, flexible y sencillo de pintar, se utiliza principalmente en sectores como el automotriz, el industrial y de productos domésticos.
-      .tarjeta.color-tarjeta-5.p-4
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Poliestireno de alto impacto HIPS
-        p.text-center Polímero de la familia de los poliestirenos que a temperatura ambiente es muy frágil, para aumentar su resistencia se le adiciona polibutaieno, comúnmente se le conoce como HIPS o PSAI.
-      .tarjeta.color-tarjeta-5.p-2
+        p.text-center Polímero de la familia de los poliestirenos que a temperatura ambiente es muy frágil, para aumentar su resistencia se le adiciona polibutadieno, comúnmente se le conoce como HIPS o PSAI.
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Tereftalato de polietileno PET
-        p.text-center Polímero obtenido por la policondensación entre el ácido tereftalático y el etilenglicol, es el polímero más utilizado en la producción de contenedores para bebidas, hace parte de los sintéticos clasificados como poliésteres.
-      .tarjeta.color-tarjeta-5.p-4
+        p.text-center Polímero obtenido por la policondensación entre el ácido tereftálico y el etilenglicol, es el polímero más utilizado en la producción de contenedores para bebidas, hace parte de los sintéticos clasificados como poliésteres.
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
-        h2.text-center Elastomero termoplastico TPE
+        h2.text-center Elastómero termoplástico TPE
         p.text-center Polímero proveniente de la mezcla de termoplásticos y elastómeros, esta combina las características de cada uno de estos elementos, también se les reconoce como TPE o cauchos termoplásticos.
-      .tarjeta.color-tarjeta-5.p-1
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-2
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Filaflex
         p.text-center Material en forma de hebra o filamento de gran elasticidad, obtenido del poliuretano junto con algunos aditivos, se desempeña más lento durante la impresión 3D, se puede aprovechar las propiedades de elasticidad y flexibilidad en la producción de elementos como zapatos deportivos, prótesis, pulseras o partes de teléfonos móviles.
-      .tarjeta.color-tarjeta-5.p-1
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-2
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Laybrick
         p.text-center Es un material que se obtiene de mezclar algunos polímeros con yeso, por tanto, las impresiones tendrán una apariencia semejante a una piedra o ladrillo, permite ser lijado y pintado, está conformado por arena y un aglutinante plástico que genera una superficie con apariencia de cerámica o piedra.
-      .tarjeta.color-tarjeta-5.p-4
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')
         h2.text-center Nylon
         p.text-center Es un polímero creado en laboratorio clasificado dentro de las poliamidas, es un filamento con propiedades de resistencia y elasticidad utilizado generalmente en la producción de telas y tejidos.
         br
-      .tarjeta.color-tarjeta-5.p-4
+      .tarjeta.color-tarjeta-5.p-4.h-100
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.png')

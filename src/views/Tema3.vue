@@ -52,7 +52,7 @@
         p Analice el proceso que se muestra a continuación, y que expone algunas situaciones para tener en cuenta, a la hora de hacer una impresión 3D:
 
     .row
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1
         TabsA.color-secundario.mb-5        
           .tarjeta-3.p-4(titulo="Nivelar el<br> marco")
             p Nivelar el marco, quiere decir que: la nivelación de la impresora 3D es lo primero que se debe hacer a la hora del alistamiento o configuración; esta se hace, no con respecto a la superficie sobre la cual está ubicada ni tampoco con respecto al piso donde se dispuso; se debe nivelar, de acuerdo con los componentes internos que permitirán que se dé una estructura totalmente plana para comenzar a imprimir con el material de trabajo. 
@@ -60,13 +60,13 @@
 
 
           .tarjeta-3.p-4(titulo="Nivelar la<br> cama")
-            p Nivelar la cama, es decir que, luego que el marco quedó nivelado, ahora se debe nivelar la cama, porque esta soportará los dos componentes; al igual que en el paso anterior, se deben seguir las indicaciones del fabricante en el manual; si después de hacerlo, la cama presenta desniveles, puede ser defecto de fabricación y no se puede corregir; por lo tanto, se debe reemplazar bien sea con un repuesto, o con un objeto del que se tenga seguridad de su planitud, el cual puede ser un vidrio o un espejo. 
+            p Nivelar la cama, es decir que, luego que el marco quedó nivelado, ahora se debe nivelar la cama, porque está soportará los dos componentes; al igual que en el paso anterior, se deben seguir las indicaciones del fabricante en el manual; si después de hacerlo, la cama presenta desniveles, puede ser defecto de fabricación y no se puede corregir; por lo tanto, se debe reemplazar bien sea con un repuesto, o con un objeto del que se tenga seguridad de su planitud, el cual puede ser un vidrio o un espejo. 
 
           .tarjeta-3.p-4(titulo="Lubricar")
             p Una vez la impresora 3D esta lista, es necesario lubricar las piezas que por su función sean indispensables, es decir, las piezas articuladas o móviles, se puede utilizar como lubricante grasas o aceites de silicona, normalmente en las directrices de fábrica incluyen las recomendaciones de contenido y cantidades.
           .tarjeta-3.p-4(titulo="Primera capa")
             p Al iniciar la impresión se recomienda que la impresora esté configurada para que las dos o tres primeras capas se apliquen con una velocidad baja y para las posteriores se irá incrementando, esto con el fin de que las capas de base o soporte sean suficientemente fuertes para soportar el resto del objeto.
-      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/tema4/img-6.png").m-auto
 

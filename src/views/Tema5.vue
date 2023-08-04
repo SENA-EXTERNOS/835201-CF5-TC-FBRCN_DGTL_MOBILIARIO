@@ -85,7 +85,7 @@
         TabsA.color-secundario.mb-5        
           .tarjeta-3.p-4(titulo="¿Cómo?")
             h4 ¿Cómo se debe limpiar la cama de impresión?
-            p La cama de impresión se puede limpiar de muchas formas, las más recomendables pueden son: 
+            p La cama de impresión se puede limpiar de muchas formas, las más recomendables son: 
             p Eliminar los residuos de filamento adheridos a la cama, utilizando una espátula metálica, también se puede previamente sumergir la base en agua caliente con el fin de que se ablanden y sea más fácil despegarlos.
             p Se pueden también despegar los residuos de filamentos adheridos, utilizando una cinta de doble cara aprovechando que con esta se remueven las partículas más pequeñas.
 
