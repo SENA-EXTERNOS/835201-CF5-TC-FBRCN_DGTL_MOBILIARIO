@@ -9,10 +9,10 @@
     .tarjeta.fondo1.color-gris.mb-5(data-aos="fade-down")
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last.pt-4
-        
+
           p.p-4 Desde el diseño de las piezas hasta su conversión en código G, pasando por el control de la impresora 3D durante la fabricación, encontramos gran cantidad de <em>software</em> para apoyar la impresión en 3D.
 
-          p.ms-4 Los objetos creados en impresión 3D inician con un modelo digital desarrollado generalmente en CAD o diseño asistido por computador, en el mercado se pueden encontrar gran cantidad de este, así como de programas y aplicaciones para simular y mejorar las creaciones 3D, para alistar los archivos antes de la impresión y para todo el proceso de la impresión 3D.
+          p.ms-4 Los objetos creados en impresión 3D, inician con un modelo digital desarrollado, generalmente, en CAD o diseño asistido por computador, en el mercado se pueden encontrar gran cantidad de estos, así como de programas y aplicaciones para simular y mejorar las creaciones 3D, para alistar los archivos antes de la impresión y para todo el proceso de la impresión 3D.
 
         .col-md-6.mb-0.mb-md-0.order-md-last.order-sm-first
           figure.p-3
@@ -21,7 +21,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-8
         .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0 Para lograr una buena impresión 3D hay que tener en cuenta factores como la formas, el peso, soportes, costos, etc., y para ello, existen numerosas aplicaciones y programas con los que apoyarse en el momento de requerirlos.
+          p.mb-0 Para lograr una buena impresión 3D hay que tener en cuenta factores como las formas, el peso, soportes, costos, etc., y para ello, existen numerosas aplicaciones y programas para apoyarse en el momento de requerirlos.
 
     h4.my-5 Programas de modelización 3D
 
@@ -46,7 +46,7 @@
       .tarjeta.colormodal(x="96.5%" y="22.2%" numero="2" tooltip="Ver mas")
         .row.justify-content-center.mb-5.p-5
           .col-7
-            p El <em>software</em> de modelado de superficies es utilizado para definir la superficie de los objetos y no el contenido interior, es muy común en el campo del arte o en campos en los que  los diseñadores buscan representar los objetos con alta calidad en su estética y en acabados superficiales, así como en la animación en 3D, las marcas más reconocidas son: Dessault Systemes, Blender, Rhinoceros entre otros.
+            p El <em>software</em> de modelado de superficies es utilizado para definir la superficie de los objetos y no el contenido interior, es muy común en el campo del arte o en campos en los que  los diseñadores buscan representar los objetos con alta calidad en su estética y en acabados superficiales, así como en la animación en 3D, las marcas más reconocidas son: Dassault Systemes, Blender, Rhinoceros entre otros.
 
           .col-5
             figure
@@ -72,7 +72,7 @@
 
     h4.my-5 <em>Slicers 3D</em> y programas reparadores de archivos STL
 
-    .row 
+    .row
       .col-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img.tema-3(
@@ -84,15 +84,15 @@
             br
             p Los <em>slicers</em> 3D convierten el modelo 3D creado en CAD, en rebanadas o capas cuyo espesor es el mismo diámetro del cabezal de la impresora 3D en la que se quiere imprimir.
     .row.justify-content-end.align-items-center.mb-5
-      .col-lg-8 
+      .col-lg-8
       .col-10
         .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-3
           .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
             .col-lg-4.mb-4.mb-lg-0.col-md-10
             .col-lg-8.col-md-10
               .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
-                p El <em>Slicer 3D</em> crea en un programa de lenguaje Gcode, todas las instrucciones para que sean seguidas por la impresora. Este <em>software</em> es fundamental en el proceso de impresión 3D ya que, aspectos tales como la resolución, el espesor de cada capa y la velocidad de impresión son definidos por este laminador. 
-    .row 
+                p El <em>Slicer 3D</em> crea en un programa de lenguaje Gcode, todas las instrucciones para que sean seguidas por la impresora. Este <em>software</em> es fundamental en el proceso de impresión 3D ya que, aspectos tales como la resolución, el espesor de cada capa y la velocidad de impresión son definidos por este laminador.
+    .row
       .col-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -100,7 +100,7 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Existen dos tipos de <em>software Slicers</em> para la impresión en 3D, uno los universales de código abierto como: Cura, Repeteir o Slic3r; y los que requieren pago como Simplify3D, ReplicatorG, Zsuite y 3l Voxelizer
-    
+
     h4.my-5 Otros <em>softwares</em>
 
     p.mb-5 Si bien se pueden encontrar muchas aplicaciones o programas asociados a la impresión 3D, a continuación, conozca algunos otros programas que pueden ser de gran utilidad en su desempeño profesional o personal:
